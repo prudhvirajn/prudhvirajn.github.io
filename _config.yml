@@ -11,12 +11,19 @@ links:
   - name:         Posts
     url:          /
     external:     false
+
+  - name:         Poems
+    url:          /poems
+    external:     false
+
   - name:         About me
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
-
 permalink:        /posts/:title
 defaults:
   - values:
       layout: "default"
+
+collections:
+  - poems
