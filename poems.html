@@ -4,7 +4,8 @@ layout: default
 
 <ul class="list pa0">
   {% assign thesize = site.poems.size %}
-  {% for post in site.poems %}
+  {% assign poems = site.poems | sort: 'date' | reverse %}
+  {% for post in poems %}
   <li class="mv2">
     <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
       {% if post.title %}
