@@ -13,4 +13,4 @@ It was a silent afternoon,<br>
 Where I could peacefully exist,<br>
 
 It was a silent afternoon,<br>
-With nobody around.<br>
+With nobody to care.
