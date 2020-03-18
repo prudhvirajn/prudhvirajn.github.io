@@ -1,6 +1,6 @@
 ---
 title: Singapore
-date: 2020-03-16 11:41:00 +0530
+date: 2020-03-18 11:41:00 +0530
 ---
 
 There's an island in the east,<br>
