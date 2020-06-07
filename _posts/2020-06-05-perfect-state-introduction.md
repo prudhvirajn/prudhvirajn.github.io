@@ -1,5 +1,5 @@
 ---
-title: The Perfect State Introduction
+title: The Perfect State (Introduction)
 date: 2020-06-05 21:29:00
 ---
 
