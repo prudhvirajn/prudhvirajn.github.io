@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Prud&#39;s Blog</title>
+    <link>http://prudhvirajn.github.io/posts/</link>
+    <description>Recent content in Posts on Prud&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 14:37:00 +0000</lastBuildDate><atom:link href="http://prudhvirajn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Perfect State (What is a State)</title>
+      <link>http://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</link>
+      <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
+      
+      <guid>http://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</guid>
+      <description>For centuries, people have argued how to produce, distribute and allocate resources to ensure a better society for all. But to get to what a state should be, I ask “What is a State?”
+Is a state a group of people sharing an identity? Is a state boundaries on a map? Is a state, a god’s authority on Earth? It might be not be easy to define a state in these terms.</description>
+    </item>
+    
+    <item>
+      <title>The Perfect State (Introduction)</title>
+      <link>http://prudhvirajn.github.io/posts/perfect-state-introduction/</link>
+      <pubDate>Fri, 05 Jun 2020 21:29:00 +0000</pubDate>
+      
+      <guid>http://prudhvirajn.github.io/posts/perfect-state-introduction/</guid>
+      <description>Before I delve into my ideas for a perfect state. I would like to introduce these series of articles, which I hopefully can complete to write out my thoughts on administration of a modern state.
+I write this at 9:15 pm 5th June 2020. The world has been through a pandemic, devastating lives and livelihoods across the worlds. Protests have erupted in the United States over a sad death of an African American.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://prudhvirajn.github.io/posts/first-post/</link>
+      <pubDate>Sat, 14 Mar 2020 00:06:52 +0000</pubDate>
+      
+      <guid>http://prudhvirajn.github.io/posts/first-post/</guid>
+      <description>The first post, on what is hopefully a permanent personal site. Who am I?
+Just a wanderer across times.</description>
+    </item>
+    
+  </channel>
+</rss>
