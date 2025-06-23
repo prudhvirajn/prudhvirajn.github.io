@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Personal on Prud&#39;s Log</title>
+    <link>http://localhost:1313/categories/personal/</link>
+    <description>Recent content in Personal on Prud&#39;s Log</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2020 00:06:52 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sat, 14 Mar 2020 00:06:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>The first post on my personal website - a brief introduction.</description>
+    </item>
+  </channel>
+</rss>

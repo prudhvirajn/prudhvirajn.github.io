@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programming on Prud&#39;s Log</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on Prud&#39;s Log</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2023 13:54:08 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Ain&#39;t It</title>
+      <link>http://localhost:1313/posts/chatgpt-aint-it/</link>
+      <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/chatgpt-aint-it/</guid>
+      <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
+    </item>
+  </channel>
+</rss>

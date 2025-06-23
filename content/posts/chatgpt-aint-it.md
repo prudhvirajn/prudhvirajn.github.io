@@ -2,9 +2,12 @@
 title: "ChatGPT Ain't It"
 quote: '"Trust, but verify" ~ Ronald Reagan'
 date: 2023-09-26T13:54:08-07:00
-draft: true
+draft: false
 ShowToc: true
 author: "Prudhviraj Naidu"
+tags: ["AI", "technology", "ChatGPT", "programming"]
+categories: ["technology"]
+summary: "Reflections on the marvel of ChatGPT technology and its impact on programming and debugging."
 ---
 
 ### Background

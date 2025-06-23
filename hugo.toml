@@ -1,0 +1,72 @@
+baseURL = "https://prudhvirajn.github.io"
+languageCode = "en-us"
+title = "Prud's Log"
+theme = "PaperMod"
+
+# Enable math rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      math = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  # SEO and social
+  author = "Prudhviraj Naidu"
+  description = "PhD student in Computer Science with focus on machine learning and software engineering"
+  keywords = ["Computer Science", "Machine Learning", "Software Engineering", "Research"]
+  
+  # Profile settings
+  [params.profileMode]
+    enabled = false
+  
+  # Enable search
+  fuseOpts.keys = ["title", "permalink", "summary", "content"]
+  
+  # Enable math rendering with KaTeX
+  math = true
+  
+  # Custom footer text
+  customFooter = "Inspired by [Lil'Log](https://lilianweng.github.io/)"
+  
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/prudhvirajn"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:your.email@domain.com"  # Replace with your email
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 30
+
+# Output settings for GitHub Pages
+publishDir = "docs"
+
+# Enable tags and categories
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Configure output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

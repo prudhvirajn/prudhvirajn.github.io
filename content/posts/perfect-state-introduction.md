@@ -1,7 +1,10 @@
 ---
-title: The Perfect State (Introduction)
-date: 2020-06-05 21:29:00
+title: "The Perfect State (Introduction)"
+date: 2020-06-05T21:29:00Z
 draft: false
+tags: ["political-theory", "perfect-state", "administration"]
+categories: ["political-theory"]
+summary: "Introduction to a series of articles exploring ideas for a perfect state and modern administration."
 ---
 
 Before I delve into my ideas for a perfect state. I would like to introduce these series of articles, which I hopefully can complete to write out my thoughts on administration of a modern state.

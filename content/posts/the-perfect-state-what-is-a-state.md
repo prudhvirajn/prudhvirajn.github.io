@@ -1,7 +1,10 @@
 ---
-title: The Perfect State (What is a State)
-date: 2020-06-07 14:37:00
+title: "The Perfect State (What is a State)"
+date: 2020-06-07T14:37:00Z
 draft: false
+tags: ["political-theory", "perfect-state", "philosophy", "governance"]
+categories: ["political-theory"]
+summary: "Exploring the fundamental question of what constitutes a state through security, economy, and society perspectives."
 ---
 
 For centuries, people have argued how to produce, distribute and allocate resources to ensure a better society for all. But to get to what a state should be, I ask “What is a State?”

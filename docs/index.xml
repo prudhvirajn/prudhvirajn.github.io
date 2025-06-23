@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Prud&#39;s Log</title>
+    <link>https://prudhvirajn.github.io/</link>
+    <description>Recent content on Prud&#39;s Log</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2023 13:54:08 -0700</lastBuildDate>
+    <atom:link href="https://prudhvirajn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Ain&#39;t It</title>
+      <link>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</link>
+      <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
+      <guid>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</guid>
+      <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://prudhvirajn.github.io/cv/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://prudhvirajn.github.io/cv/</guid>
+      <description>&lt;h1 id=&#34;prudhviraj-naidu&#34;&gt;Prudhviraj Naidu&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;PhD Student in Computer Science&lt;/strong&gt;&lt;br&gt;
+Email: &lt;a href=&#34;mailto:your.email@domain.com&#34;&gt;your.email@domain.com&lt;/a&gt;&lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/prudhvirajn&#34;&gt;github.com/prudhvirajn&lt;/a&gt;&lt;br&gt;
+Website: &lt;a href=&#34;https://prudhvirajn.github.io&#34;&gt;prudhvirajn.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PhD in Computer Science&lt;/strong&gt; &lt;em&gt;(Expected: Year)&lt;/em&gt;&lt;br&gt;
+University Name&lt;br&gt;
+&lt;em&gt;Dissertation: [Your dissertation title]&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;Advisor: [Advisor Name]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Previous Degree]&lt;/strong&gt; &lt;em&gt;(Year)&lt;/em&gt;&lt;br&gt;
+University Name&lt;br&gt;
+&lt;em&gt;GPA: X.X/4.0&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;: Deep learning, neural network testing, metamorphic testing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software Engineering&lt;/strong&gt;: Software testing methodologies, quality assurance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Information Retrieval&lt;/strong&gt;: Scientific document retrieval, multi-level aspect-based queries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;h3 id=&#34;journal-articles&#34;&gt;Journal Articles&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;2022&lt;/strong&gt;&lt;br&gt;
+Hemanth Gudaparthi, &lt;strong&gt;Prudhviraj Naidu&lt;/strong&gt;, and Nan Niu. &amp;ldquo;Metamorphic Testing of Image Classification and Consistency Analysis Using Clustering.&amp;rdquo; &lt;em&gt;International Journal of Multimedia Data Engineering and Management (IJMDEM)&lt;/em&gt;, vol.13, no.1, 2022, pp.1-20.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://prudhvirajn.github.io/publications/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://prudhvirajn.github.io/publications/</guid>
+      <description>&lt;h2 id=&#34;journal-publications&#34;&gt;Journal Publications&lt;/h2&gt;
+&lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hemanth Gudaparthi, Prudhviraj Naidu, and Nan Niu&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&amp;ldquo;Metamorphic Testing of Image Classification and Consistency Analysis Using Clustering&amp;rdquo;&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;International Journal of Multimedia Data Engineering and Management (IJMDEM)&lt;/strong&gt;, vol.13, no.1, 2022, pp.1-20&lt;br&gt;
+&lt;a href=&#34;http://doi.org/10.4018/IJMDEM.304390&#34;&gt;[Paper]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conference-publications&#34;&gt;Conference Publications&lt;/h2&gt;
+&lt;h3 id=&#34;2023&#34;&gt;2023&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Jianyou Wang, Kaicheng Wang, Xiaoyue Wang, Prudhviraj Naidu, Leon Bergen, Ramamohan Paturi&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&amp;ldquo;Scientific Document Retrieval using Multi-level Aspect-based Queries&amp;rdquo;&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track&lt;/strong&gt;, 2023&lt;/p&gt;
+&lt;h3 id=&#34;2021&#34;&gt;2021&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Prudhviraj Naidu, Hemanth Gudaparthi, and Nan Niu&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&amp;ldquo;Metamorphic Testing for Convolutional Neural Networks: Relations over Image Classification&amp;rdquo;&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;2021 IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI)&lt;/strong&gt;, 2021, pp.99-106&lt;br&gt;
+&lt;a href=&#34;https://doi.org/10.1109/IRI51335.2021.00020&#34;&gt;[DOI]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Perfect State (What is a State)</title>
+      <link>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</link>
+      <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
+      <guid>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</guid>
+      <description>Exploring the fundamental question of what constitutes a state through security, economy, and society perspectives.</description>
+    </item>
+    <item>
+      <title>The Perfect State (Introduction)</title>
+      <link>https://prudhvirajn.github.io/posts/perfect-state-introduction/</link>
+      <pubDate>Fri, 05 Jun 2020 21:29:00 +0000</pubDate>
+      <guid>https://prudhvirajn.github.io/posts/perfect-state-introduction/</guid>
+      <description>Introduction to a series of articles exploring ideas for a perfect state and modern administration.</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>https://prudhvirajn.github.io/posts/first-post/</link>
+      <pubDate>Sat, 14 Mar 2020 00:06:52 +0000</pubDate>
+      <guid>https://prudhvirajn.github.io/posts/first-post/</guid>
+      <description>The first post on my personal website - a brief introduction.</description>
+    </item>
+  </channel>
+</rss>
