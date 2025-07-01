@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Code Review Contest | Prud&#39;s Log</title>
+<meta name="keywords" content="code review, project, start up, project lead">
+<meta name="description" content="Few more people did code review. I ended up trying to automate code review with Claude github action">
+<meta name="author" content="Prudhviraj Naidu">
+<link rel="canonical" href="https://prudhvirajn.github.io/posts/code-review-contest/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.400f458686811f63f55e158a0c1bb8d4aea2d77f16e5bd1dc855c67c04a8693a.css" integrity="sha256-QA9FhoaBH2P1XhWKDBu41K6i138W5b0dyFXGfASoaTo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://prudhvirajn.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://prudhvirajn.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://prudhvirajn.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://prudhvirajn.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://prudhvirajn.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://prudhvirajn.github.io/posts/code-review-contest/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://prudhvirajn.github.io/posts/code-review-contest/">
+  <meta property="og:site_name" content="Prud&#39;s Log">
+  <meta property="og:title" content="Code Review Contest">
+  <meta property="og:description" content="Few more people did code review. I ended up trying to automate code review with Claude github action">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-07T13:54:08-07:00">
+    <meta property="article:modified_time" content="2024-07-07T13:54:08-07:00">
+    <meta property="article:tag" content="Code Review">
+    <meta property="article:tag" content="Project">
+    <meta property="article:tag" content="Start Up">
+    <meta property="article:tag" content="Project Lead">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Code Review Contest">
+<meta name="twitter:description" content="Few more people did code review. I ended up trying to automate code review with Claude github action">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://prudhvirajn.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Code Review Contest",
+      "item": "https://prudhvirajn.github.io/posts/code-review-contest/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Code Review Contest",
+  "name": "Code Review Contest",
+  "description": "Few more people did code review. I ended up trying to automate code review with Claude github action",
+  "keywords": [
+    "code review", "project", "start up", "project lead"
+  ],
+  "articleBody": "Background At LEI (Lab for Emerging Intelligence) UC San Diego, we are developing GenAI powered applications at the university. As such, we primarily hire undergraduates to take on such projects. However, the projects involve writing and deploying applications for thousands of users. This requires us to write high quality code that is easy to maintain.\nAs part of these efforts, we are internally running a Code Review Contest to help people read code and understand what is required from them in terms of code style, documentation and quality. Furthermore, the contest helps get reviews out faster so that PRs are not bottlenecked by few.\nRules Every week, everybody must review one PR per week The winner must review at least 2 PR People must review PRs in repository they do not actively contribute code to (for it to count in this contest; the idea is people have to read the issue and related documentation so they understand what documentation needs to be written in their respective repository) For their to be a weekly winner, everybody must review a PR (so that one doesn’t hog up reviewing all PRs or in case there are too few PR in a week) This can not distract from assigned work Weekly Pot: $10 If nobody wins, then the money goes into the monthly pot which goes to the person with highest reviews.\nContest runs till end of August.\nWeekly Leaderboard Week 1: June 24th to June 27th Name Reviews Laura Fleig (GitHub Profile) 1 Ziyue (Tim) Liu (GitHub Profile) 0 Mahesh Bharadwaj (GitHub Profile) 0 Matthew David (GitHub Profile) 0 Siddhant Kumar (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs and nobody did 2 PRs\nWeek 2: July 1st to July 7th Name Reviews Mahesh Bharadwaj (GitHub Profile) 3 Matthew David (GitHub Profile) 1 Siddhant Kumar (GitHub Profile) 1 Laura Fleig (GitHub Profile) 0 Ziyue (Tim) Liu (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs\nWeek 3: July 8th to July 15th Name Reviews Mahesh Bharadwaj (GitHub Profile) 0 Matthew David (GitHub Profile) 1 Siddhant Kumar (GitHub Profile) 0 Laura Fleig (GitHub Profile) 1 Ziyue (Tim) Liu (GitHub Profile) 0 Sophia Yu (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs\nWeek 4: July 15th to July 22nd Name Reviews Laura Fleig (GitHub Profile) 1 Mahesh Bharadwaj (GitHub Profile) 0 Matthew David (GitHub Profile) 0 Siddhant Kumar (GitHub Profile) 0 Ziyue (Tim) Liu (GitHub Profile) 0 Sophia Yu (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs\nWeek 5: July 22nd to July 29th Name Reviews Laura Fleig (GitHub Profile) 1 Mahesh Bharadwaj (GitHub Profile) 0 Matthew David (GitHub Profile) 0 Siddhant Kumar (GitHub Profile) 0 Ziyue (Tim) Liu (GitHub Profile) 0 Sophia Yu (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs\nWeek 6: July 29th to August 5th Name Reviews Laura Fleig (GitHub Profile) 0 Mahesh Bharadwaj (GitHub Profile) 0 Matthew David (GitHub Profile) 0 Siddhant Kumar (GitHub Profile) 0 Ziyue (Tim) Liu (GitHub Profile) 0 Sophia Yu (GitHub Profile) 0 Weekly Winner: Nobody since not everyone completed their PRs\nMonthly Leaderboard June / July Name Total Reviews Laura Fleig (GitHub Profile) 4 Mahesh Bharadwaj (GitHub Profile) 3 Matthew David (GitHub Profile) 2 Siddhant Kumar (GitHub Profile) 1 Winner: Laura Fleig (GitHub Profile)\nCurrent Value: $50\nConclusion The contest ended.\nI am not sure code reviews improved much since I was busy with other matters than running the contest. It did increase communication in the team as people tried others pull request. I do believe it was a net positive and certainly worth more than money I paid out for it.\nMy hypothesis: It might be useful to teach people to write issues and review pull requests is better than teaching them how to code. In fact to any non-CS fresh graduates people out there, I hope I never have to see your code. It infuriates me to no extent.\n",
+  "wordCount" : "665",
+  "inLanguage": "en",
+  "datePublished": "2024-07-07T13:54:08-07:00",
+  "dateModified": "2024-07-07T13:54:08-07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Prudhviraj Naidu"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://prudhvirajn.github.io/posts/code-review-contest/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prud's Log",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://prudhvirajn.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    
+    document.body.classList.remove('dark');
+    
+    localStorage.removeItem("pref-theme");
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://prudhvirajn.github.io/" accesskey="h" title="Prud&#39;s Log (Alt + H)">Prud&#39;s Log</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://prudhvirajn.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://prudhvirajn.github.io/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://prudhvirajn.github.io/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Code Review Contest
+    </h1>
+    <div class="post-meta"><span title='2024-07-07 13:54:08 -0700 PDT'>July 7, 2024</span>&nbsp;·&nbsp;Prudhviraj Naidu
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#background" aria-label="Background">Background</a></li>
+                <li>
+                    <a href="#rules" aria-label="Rules">Rules</a></li>
+                <li>
+                    <a href="#weekly-leaderboard" aria-label="Weekly Leaderboard">Weekly Leaderboard</a><ul>
+                        
+                <li>
+                    <a href="#week-1-june-24th-to-june-27th" aria-label="Week 1: June 24th to June 27th">Week 1: June 24th to June 27th</a></li>
+                <li>
+                    <a href="#week-2-july-1st-to-july-7th" aria-label="Week 2: July 1st to July 7th">Week 2: July 1st to July 7th</a></li>
+                <li>
+                    <a href="#week-3-july-8th-to-july-15th" aria-label="Week 3: July 8th to July 15th">Week 3: July 8th to July 15th</a></li>
+                <li>
+                    <a href="#week-4-july-15th-to-july-22nd" aria-label="Week 4: July 15th to July 22nd">Week 4: July 15th to July 22nd</a></li>
+                <li>
+                    <a href="#week-5-july-22nd-to-july-29th" aria-label="Week 5: July 22nd to July 29th">Week 5: July 22nd to July 29th</a></li>
+                <li>
+                    <a href="#week-6-july-29th-to-august-5th" aria-label="Week 6: July 29th to August 5th">Week 6: July 29th to August 5th</a></li></ul>
+                </li>
+                <li>
+                    <a href="#monthly-leaderboard" aria-label="Monthly Leaderboard">Monthly Leaderboard</a><ul>
+                        
+                <li>
+                    <a href="#june--july" aria-label="June / July">June / July</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>At LEI (Lab for Emerging Intelligence) UC San Diego, we are developing GenAI powered applications at the university. As such, we primarily hire undergraduates to take on such projects. However, the projects involve writing and deploying applications for thousands of users. This requires us to write high quality code that is easy to maintain.</p>
+<p>As part of these efforts, we are internally running a Code Review Contest to help people read code and understand what is required from them in terms of code style, documentation and quality. Furthermore, the contest helps get reviews out faster so that PRs are not bottlenecked by few.</p>
+<h2 id="rules">Rules<a hidden class="anchor" aria-hidden="true" href="#rules">#</a></h2>
+<ul>
+<li>Every week, everybody must review one PR per week</li>
+<li>The winner must review at least 2 PR</li>
+<li>People must review PRs in repository they do not actively contribute code to (for it to count in this contest; the idea is people have to read the issue and related documentation so they understand what documentation needs to be written in their respective repository)</li>
+<li>For their to be a weekly winner, everybody must review a PR (so that one doesn&rsquo;t hog up reviewing all PRs or in case there are too few PR in a week)</li>
+<li>This can not distract from assigned work</li>
+<li><strong>Weekly Pot:</strong> $10</li>
+</ul>
+<p>If nobody wins, then the money goes into the monthly pot which goes to the person with highest reviews.</p>
+<p>Contest runs till end of August.</p>
+<h2 id="weekly-leaderboard">Weekly Leaderboard<a hidden class="anchor" aria-hidden="true" href="#weekly-leaderboard">#</a></h2>
+<h3 id="week-1-june-24th-to-june-27th">Week 1: June 24th to June 27th<a hidden class="anchor" aria-hidden="true" href="#week-1-june-24th-to-june-27th">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs and nobody did 2 PRs</p>
+<h3 id="week-2-july-1st-to-july-7th">Week 2: July 1st to July 7th<a hidden class="anchor" aria-hidden="true" href="#week-2-july-1st-to-july-7th">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
+<h3 id="week-3-july-8th-to-july-15th">Week 3: July 8th to July 15th<a hidden class="anchor" aria-hidden="true" href="#week-3-july-8th-to-july-15th">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Sophia Yu (<a href="https://github.com/Syu125">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
+<h3 id="week-4-july-15th-to-july-22nd">Week 4: July 15th to July 22nd<a hidden class="anchor" aria-hidden="true" href="#week-4-july-15th-to-july-22nd">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Sophia Yu (<a href="https://github.com/Syu125">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
+<h3 id="week-5-july-22nd-to-july-29th">Week 5: July 22nd to July 29th<a hidden class="anchor" aria-hidden="true" href="#week-5-july-22nd-to-july-29th">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Sophia Yu (<a href="https://github.com/Syu125">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
+<h3 id="week-6-july-29th-to-august-5th">Week 6: July 29th to August 5th<a hidden class="anchor" aria-hidden="true" href="#week-6-july-29th-to-august-5th">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Ziyue (Tim) Liu (<a href="https://github.com/liuziyue141">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Sophia Yu (<a href="https://github.com/Syu125">GitHub Profile</a>)</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
+<h2 id="monthly-leaderboard">Monthly Leaderboard<a hidden class="anchor" aria-hidden="true" href="#monthly-leaderboard">#</a></h2>
+<h3 id="june--july">June / July<a hidden class="anchor" aria-hidden="true" href="#june--july">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Total Reviews</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</td>
+          <td>4</td>
+      </tr>
+      <tr>
+          <td>Mahesh Bharadwaj (<a href="https://github.com/MaheshBharadwaj">GitHub Profile</a>)</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>Matthew David (<a href="https://github.com/mmdavid1">GitHub Profile</a>)</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>Siddhant Kumar (<a href="https://github.com/SiddhantKumar-Dev">GitHub Profile</a>)</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Winner:</strong> Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</p>
+<p><strong>Current Value:</strong> $50</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>The contest ended.</p>
+<p>I am not sure code reviews improved much since I was busy with other matters than running the contest. It did increase communication in the team as people tried others pull request. I do believe it was a net positive and certainly worth more than money I paid out for it.</p>
+<p><strong>My hypothesis:</strong> It might be useful to teach people to write issues and review pull requests is better than teaching them how to code. In fact to any non-CS fresh graduates people out there, I hope I never have to see your code. It infuriates me to no extent.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://prudhvirajn.github.io/tags/code-review/">Code Review</a></li>
+      <li><a href="https://prudhvirajn.github.io/tags/project/">Project</a></li>
+      <li><a href="https://prudhvirajn.github.io/tags/start-up/">Start Up</a></li>
+      <li><a href="https://prudhvirajn.github.io/tags/project-lead/">Project Lead</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="https://prudhvirajn.github.io/">Prud&#39;s Log</a></span>
+    <span> · Inspired by <a href="https://lilianweng.github.io/" rel="noopener noreferrer" target="_blank">Lil'Log</a></span>
+    <span> · 
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer></body>
+
+</html>

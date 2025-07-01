@@ -6,8 +6,54 @@
     <description>Recent content on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2023 13:54:08 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 13:54:08 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sisyphian Dilemma</title>
+      <link>http://localhost:1313/posts/sisyphian-dilemma/</link>
+      <pubDate>Sun, 23 Feb 2025 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/sisyphian-dilemma/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Warning: Unedited First draft, read at your own peril&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sisyphus is a mortal condemned by Zeus to push a boulder up a slope. When he reaches the top of the slope, the boulder automatically falls down and he has to start again. Sounds like a nightmare right? A work that is never completed?&lt;/p&gt;
+&lt;p&gt;When sisyphus is pushing the boulder, he has only one thing on his mind. To push the boulder up. Why should he push the boulder up? Because the gods commanded it. The ultimate reason: The wishes of the divine. So he had reason and he had a goal thus he had meaning in his work. But what about when the boulder reaches the top? Imagine if the boulder never fell back down. Would he still have meaning? How would he find meaning?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bets 2025</title>
+      <link>http://localhost:1313/posts/bets-2025/</link>
+      <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/bets-2025/</guid>
+      <description>Verifying previous 6 month bets and making new 6-month bets</description>
+    </item>
+    <item>
+      <title>The Unknown</title>
+      <link>http://localhost:1313/posts/the-unknown/</link>
+      <pubDate>Tue, 07 Jan 2025 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-unknown/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The following blog post has not been proof-read due to the author&amp;rsquo;s commitment to posting and writing.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Since it&amp;rsquo;s the new year, I had to do my predictions for the next 6 months. But strangely, I am having a hard time. More so, this is probably the first time in my life, I can not imagine a realistic future for me. Weirdly, I am quite confident on how the future of the world might look like (I am not saying it&amp;rsquo;s fixed but I do believe the probabilities are concentrated on few possible trajectories).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Review Contest</title>
+      <link>http://localhost:1313/posts/code-review-contest/</link>
+      <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-review-contest/</guid>
+      <description>Few more people did code review. I ended up trying to automate code review with Claude github action</description>
+    </item>
+    <item>
+      <title>Bets 2024</title>
+      <link>http://localhost:1313/posts/bets-2024/</link>
+      <pubDate>Sun, 30 Jun 2024 13:54:08 -0700</pubDate>
+      <guid>http://localhost:1313/posts/bets-2024/</guid>
+      <description>Bets for 6 months, 1 year and 5 year</description>
+    </item>
+    <item>
+      <title>Turning 25</title>
+      <link>http://localhost:1313/posts/turning-25/</link>
+      <pubDate>Tue, 21 May 2024 00:03:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/turning-25/</guid>
+      <description>Reflections on my life till turning 25.</description>
+    </item>
     <item>
       <title>ChatGPT Ain&#39;t It</title>
       <link>http://localhost:1313/posts/chatgpt-aint-it/</link>
@@ -16,7 +62,7 @@
       <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
     </item>
     <item>
-      <title>Curriculum Vitae</title>
+      <title>Curriculum Vitae (Don&#39;t Look, Work In Progress)</title>
       <link>http://localhost:1313/cv/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
