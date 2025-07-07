@@ -17,7 +17,7 @@ Language models are probabilistic models $P\_{\theta}(x)$ where $x$ is a string 
 
 In this article, I want to understand how the model changes when we change $\theta$ at timestep $t+1$ w.r.t the previous timestep $\theta\_t$. This article is partially motivated by Natural Gradients[^1] and partly because I am driven by nightmares that I am not setting the learning rate correctly! xD
 
-These derivations were shown by Andy[^1], I just want to re-write them for my understanding. 
+These derivations were shown by Andy[^1]. I just want to re-write them for my understanding. 
 
 ## The first two terms are zero
 
@@ -26,8 +26,8 @@ Let $P\_{\theta}$ refer to the probability measure induced by $\theta$ on some s
 <div>
 $$
 \begin{aligned}
-D_{KL}(P_{\theta}, P_{\theta_t}) &\approx D_{KL}(P_{\theta_t}, P_{\theta_t}) \\
-&\quad + (\nabla_{\theta} D_{KL}(P_{\theta}, P_{\theta_t}) \left. \right|_{\theta=\theta_t}) (\theta - \theta_t) \\
+D_{KL}(P_{\theta_t} || P_{\theta}) &\approx D_{KL}(P_{\theta_t} || P_{\theta}) \\
+&\quad + (\nabla_{\theta} D_{KL}(P_{\theta_t} || P_{\theta}) \left. \right|_{\theta=\theta_t}) (\theta - \theta_t) \\
 &\quad + (\theta - \theta_t)^{\top} H(\theta_t) (\theta - \theta_t)
 \end{aligned}
 $$
@@ -35,11 +35,11 @@ $$
 
 where H is the Hessian w.r.t $\theta$.
 
-The first term $D_{KL}(P_{\theta_t}, P_{\theta_t})$ is $0$ as the probability distributions are the same. 
+The first term $D_{KL}(P_{\theta_t} || P_{\theta_t})$ is $0$ as the probability distributions are the same. 
 
 The second term is also $0$. This is quite interesting.  
 
-<div>
+<!-- <div>
 $$
 \begin{aligned}
 \nabla_{\theta} D_{KL}(P_{\theta}, P_{\theta_t}) \left. \right|_{\theta=\theta_t} &= \nabla_{\theta}\ \mathbb{E}_{x \sim P_{\theta_t}} \left[\log \frac{P_{\theta} (x)}{P_{\theta_t} (x)} \right] \\
@@ -58,21 +58,43 @@ $$
 &= 0 \\
 \end{aligned}
 $$
-</div>
-
-This means $D_{KL}(P_{\theta}, P_{\theta_t}) \approx (\theta - \theta_t)^{\top} H(\theta_t) (\theta - \theta_t)$.
-
-## Bounded weight updates bound behaviour
-
-Let's ask the question what is the maximum $D_KL(P_{\theta}, P_{\theta_t})$ given finite weight updates $\Delta \theta$. 
+</div> -->
 
 <div>
 $$
 \begin{aligned}
-D_{KL}(P_{\theta}, P_{\theta_t}) &\approx (\Delta \theta)^{\top} H(\theta_t) (\Delta \theta) \\
-&\le (\Delta \theta)^{\top} \lambda_{max}(\theta_t) I (\Delta \theta) \\
-&\le \lambda_{max}(\theta_t) (\Delta \theta)^{\top} (\Delta \theta) \\
-&\le \lambda_{max}(\theta_t) \| \Delta \theta \|^2_2 \\
+\nabla_{\theta} D_{KL}(P_{\theta_t} || P_{\theta}) \left. \right|_{\theta=\theta_t} &= \nabla_{\theta}\ \mathbb{E}_{x \sim P_{\theta_t}} \left[\log \frac{P_{\theta_t} (x)}{P_{\theta} (x)} \right] \left. \right|_{\theta=\theta_t} \\
+\text{ Since the $x$ is drawn from $P_{\theta_t}$ which does not depend on $\theta$} \\
+&= \mathbb{E}_{x \sim P_{\theta_t}} \nabla_{\theta}\ \left[\log \frac{P_{\theta_t} (x)}{P_{\theta} (x)} \right] \left. \right|_{\theta=\theta_t} \\
+&= \mathbb{E}_{x \sim P_{\theta_t}} \nabla_{\theta}\ \left[\log P_{\theta_t} (x) - \log P_{\theta} (x) \right] \left. \right|_{\theta=\theta_t} \\
+\text{Since $P_{\theta_t} (x)$ does not depend on $\theta$} \\
+&= \mathbb{E}_{x \sim P_{\theta_t}} \left[- \nabla_{\theta}\ \log P_{\theta} (x) \right] \left. \right|_{\theta=\theta_t} \\ 
+&= -\mathbb{E}_{x \sim P_{\theta_t}} \left[\nabla_{\theta}\ \log P_{\theta} (x) \right] \left. \right|_{\theta=\theta_t} \\ 
+\text{As we are evaluating the gradient at $\theta=\theta_t$ } \\
+&= -\mathbb{E}_{x \sim P_{\theta_t}} \frac{1}{P_{\theta_t} (x)} \nabla_{\theta}\ P_{\theta} (x) \left. \right|_{\theta=\theta_t}\\
+&= -\sum_{x} P_{\theta_t} (x) \frac{1}{P_{\theta_t} (x)} \nabla_{\theta}\ P_{\theta} (x) \left. \right|_{\theta=\theta_t}\\
+&= -\sum_{x} \nabla_{\theta}\ P_{\theta} (x) \left. \right|_{\theta=\theta_t}\\
+\text{By the magic of linearity} \\
+&= -\nabla_{\theta}\ \sum_{x} P_{\theta} (x) \left. \right|_{\theta=\theta_t}\\
+&= -\nabla_{\theta}\ 1 \\
+&= 0 \\
+\end{aligned}
+$$
+</div>
+
+This means $D_{KL}(P_{\theta_t} || P_{\theta}) \approx (\theta - \theta_t)^{\top} H(\theta_t) (\theta - \theta_t)$.
+
+## Bounded weight updates bound behaviour
+
+Let's ask the question what is the maximum $D_{KL}(P_{\theta_t} || P_{\theta})$ given finite weight updates $\Delta \theta$. 
+
+<div>
+$$
+\begin{aligned}
+D_{KL}(P_{\theta_t} || P_{\theta}) &\approx \frac{1}{2}(\Delta \theta)^{\top} H(\theta_t) (\Delta \theta) \\
+&\le \frac{1}{2}(\Delta \theta)^{\top} \lambda_{max}(\theta_t) I (\Delta \theta) \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) (\Delta \theta)^{\top} (\Delta \theta) \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) \| \Delta \theta \|^2_2 \\
 \end{aligned}
 $$
 </div>
@@ -92,16 +114,16 @@ where $\nu_t$ is the step multiplier (or learning rate at step t) and $\gamma$ i
 <div>
 $$
 \begin{aligned}
-D_{KL}(P_{\theta}, P_{\theta_t}) &\le \lambda_{max}(\theta_t) \| \Delta \theta \|^2_2 \\
-&\le \lambda_{max}(\theta_t) \| \nu_t (g_t + \gamma \theta_t) \|^2_2 \\
-&\le \lambda_{max}(\theta_t) \nu_t^2 \| (g_t + \gamma \theta_t) \|^2_2 \\
-&\le \lambda_{max}(\theta_t) \nu_t^2 \left( \| g_t \|^2_2 + \| \gamma \theta_t \|^2_2 \right) \\
-&\le \lambda_{max}(\theta_t) \nu_t^2 \left( 1 + \gamma ^2_2 \| \theta_t \|^2_2 \right) \\
+D_{KL}(P_{\theta_t} || P_{\theta_{t+1}}) &\le \frac{1}{2}\lambda_{max}(\theta_t) \| \Delta \theta \|^2_2 \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) \| \nu_t (g_t + \gamma \theta_t) \|^2_2 \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) \nu_t^2 \| (g_t + \gamma \theta_t) \|^2_2 \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) \nu_t^2 \left( \| g_t \|_2 + \| \gamma \theta_t \|_2 \right)^2 \\
+&\le \frac{1}{2}\lambda_{max}(\theta_t) \nu_t^2 \left( 1 + \gamma \| \theta_t \|_2 \right)^2 \\
 \end{aligned}
 $$
 </div>
 
-We can conclude three things from the bound $D_{KL}(P_{\theta}, P_{\theta_t})$:
+We can conclude three things from the bound $D_{KL}(P_{\theta_t} || P_{\theta_{t + 1}})$:
 
 1. The eigenvalues of the Hessian influence model behaviour. 
 
