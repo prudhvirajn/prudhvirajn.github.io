@@ -1,11 +1,11 @@
 ---
-title: "Taylor expansions of KL-Divergence"
+title: "Taylor expansion of Model Behaviour"
 date: 2025-07-06T15:51:49-07:00
-draft: true
+draft: false
 ShowToc: false
 tags: ["math", "machine-learning", "statistics"]
 categories: ["machine-learning"]
-summary: "Taylor expansions of KL-Divergence"
+summary: "Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms"
 math: true
 ---
 

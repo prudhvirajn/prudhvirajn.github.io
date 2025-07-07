@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2025 13:54:08 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 15:51:49 -0700</lastBuildDate>
     <atom:link href="https://prudhvirajn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taylor expansion of Model Behaviour</title>
+      <link>https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/</link>
+      <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
+      <guid>https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/</guid>
+      <description>Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms</description>
+    </item>
     <item>
       <title>Sisyphian Dilemma</title>
       <link>https://prudhvirajn.github.io/posts/sisyphian-dilemma/</link>
