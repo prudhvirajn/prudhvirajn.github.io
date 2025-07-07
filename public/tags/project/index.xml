@@ -6,13 +6,14 @@
     <description>Recent content in Project on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2024 13:54:08 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bets 2024</title>
+      <title>Code Review Contest</title>
       <link>http://localhost:1313/posts/code-review-contest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
       <guid>http://localhost:1313/posts/code-review-contest/</guid>
-      <description>Few more people did code review. I ended up trying to automate code review with Anthropic pull request</description>
+      <description>Few more people did code review. I ended up trying to automate code review with Claude github action</description>
     </item>
   </channel>
 </rss>
