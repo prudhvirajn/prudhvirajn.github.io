@@ -3,12 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-06T19:42:36-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/berkeley-math-problems/</loc>
-    <lastmod>2025-07-06T19:42:36-07:00</lastmod>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/personal/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/policy/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/privacy/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/waiting-for-a-visa/</loc>
+    <lastmod>2025-07-12T16:34:19-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/berkeley-math-problems/</loc>
     <lastmod>2025-07-06T19:42:36-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/machine-learning/</loc>
@@ -20,20 +44,11 @@
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2025-07-06T19:42:36-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-06T19:42:36-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/statistics/</loc>
-    <lastmod>2025-07-06T19:42:36-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-06T19:42:36-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/taylor-expansion-of-model-behaviour/</loc>
     <lastmod>2025-07-06T15:51:49-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/personal/</loc>
-    <lastmod>2025-02-23T13:54:08-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/philosophical/</loc>
     <lastmod>2025-02-23T13:54:08-07:00</lastmod>
@@ -153,9 +168,6 @@
     <lastmod>2020-03-14T00:06:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/introduction/</loc>
-    <lastmod>2020-03-14T00:06:52+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
     <lastmod>2020-03-14T00:06:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>

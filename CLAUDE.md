@@ -39,3 +39,11 @@ The site is automatically served by GitHub Pages from the `docs/` directory. Any
 ## Content Management
 
 Since this repository only contains the generated output, content updates should be made in the original Hugo source project and then the generated files should be copied to this repository's `docs/` directory.
+
+## PaperMod Theme Tips
+
+- **Centering Images**: To center images in markdown posts, add `#center` to the end of the image URL:
+  ```markdown
+  ![Alt text](/images/image.jpg#center)
+  ```
+  The PaperMod theme has built-in CSS that automatically centers images with this suffix.
