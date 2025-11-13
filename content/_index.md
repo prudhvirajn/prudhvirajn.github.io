@@ -25,13 +25,12 @@ hideTitle: true
       </a>
     </div>
   </div>
-  
+
   <div style="flex: 1; min-width: 0;">
     <h3 style="margin-top: 0;">About Me</h3>
     <p style="text-align: justify; line-height: 1.2;">You can call me Prud. I am a PhD student in Computer Science at UC San Diego. </p>
     <p style="text-align: justify; line-height: 1.2;">My research is on how neural networks (NN) acquire capabilities. I found neural networks learn tasks before the loss goes down. Currently, I am investigating circuits responsible.</p>
-    <p style="text-align: justify; line-height: 1.2;">Broadly I spend my days thinking whether NN's will gain meta-cognitive abilities as we scale thus explain their decisions. </p>
-    <p style="text-align: justify; line-height: 1.2;">More broadly I love reading books in botanical gardens & wondering what is truth and how do we justify it. Currently reading "Crescent moon and other stories" by Lao She (Translated in English).</p>
+    <p style="text-align: justify; line-height: 1.2;">More broadly I love reading books in botanical gardens & wondering what is truth and how do we justify it. Currently reading "The Fig Tree (Memoirs of a Taiwanese Patriot)" by Wu Zhuoliu (Translated in English by Duncan Hunter).</p>
     <p style="text-align: justify; line-height: 1.2;">If you have any insights into any of these, feel free to reach out.</p>
   </div>
 </div>
@@ -42,7 +41,7 @@ hideTitle: true
 
 <p><a href="https://arxiv.org/abs/2505.03997" style="color: inherit; text-decoration: none;">Quiet Feature Learning in Algorithmic Tasks</a><br>
 <strong>Prudhviraj Naidu</strong>, Zixian Wang, Leon Bergen, Ramamohan Paturi<br>
-<em>Pre-print</em></p>
+<em>AAAI 2026 (to appear)</em></p>
 
 <p><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/78f9c04bdcb06f1ada3902912d8b64ba-Paper-Datasets_and_Benchmarks.pdf" style="color: inherit; text-decoration: none;">Scientific Document Retrieval using Multi-level Aspect-based Queries</a><br>
 Jianyou Wang, Kaicheng Wang, Xiaoyue Wang, <strong>Prudhviraj Naidu</strong>, Leon Bergen, Ramamohan Paturi<br>
