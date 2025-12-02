@@ -6,8 +6,33 @@
     <description>Recent content on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 21:43:40 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h1 id=&#34;prudhviraj-naidu&#34;&gt;Prudhviraj Naidu&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;PhD Student in Computer Science&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:prnaidu@ucsd.edu&#34;&gt;prnaidu@ucsd.edu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/prudhvirajn/&#34;&gt;linkedin.com/in/prudhvirajn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/prudhvirajn&#34;&gt;github.com/prudhvirajn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Website:&lt;/strong&gt; &lt;a href=&#34;https://prudhvirajn.github.io&#34;&gt;prudhvirajn.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ph.D. Computer Science&lt;/strong&gt; &lt;em&gt;(Expected: December 2027)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;University of California San Diego, San Diego, CA&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GPA: 3.97/4.0&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Masters of Science, Computer Science&lt;/strong&gt; &lt;em&gt;(March 2024)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;University of California San Diego, San Diego, CA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bachelor of Science, Computer Science Honors&lt;/strong&gt; &lt;em&gt;(April 2021)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;University of Cincinnati, Cincinnati, OH&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lead Developer&lt;/strong&gt; &lt;em&gt;(January 2024 - August 2024)&lt;/em&gt;
+Lab for Emerging Intelligence, UC San Diego&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why Do I Run</title>
       <link>http://localhost:1313/posts/why-do-i-run/</link>
@@ -88,38 +113,6 @@
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
       <guid>http://localhost:1313/posts/chatgpt-aint-it/</guid>
       <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
-    </item>
-    <item>
-      <title>Curriculum Vitae (Don&#39;t Look, Work In Progress)</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;h1 id=&#34;prudhviraj-naidu&#34;&gt;Prudhviraj Naidu&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;PhD Student in Computer Science&lt;/strong&gt;&lt;br&gt;
-Email: &lt;a href=&#34;mailto:your.email@domain.com&#34;&gt;your.email@domain.com&lt;/a&gt;&lt;br&gt;
-GitHub: &lt;a href=&#34;https://github.com/prudhvirajn&#34;&gt;github.com/prudhvirajn&lt;/a&gt;&lt;br&gt;
-Website: &lt;a href=&#34;https://prudhvirajn.github.io&#34;&gt;prudhvirajn.github.io&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;PhD in Computer Science&lt;/strong&gt; &lt;em&gt;(Expected: Year)&lt;/em&gt;&lt;br&gt;
-University Name&lt;br&gt;
-&lt;em&gt;Dissertation: [Your dissertation title]&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Advisor: [Advisor Name]&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[Previous Degree]&lt;/strong&gt; &lt;em&gt;(Year)&lt;/em&gt;&lt;br&gt;
-University Name&lt;br&gt;
-&lt;em&gt;GPA: X.X/4.0&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;: Deep learning, neural network testing, metamorphic testing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Software Engineering&lt;/strong&gt;: Software testing methodologies, quality assurance&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Information Retrieval&lt;/strong&gt;: Scientific document retrieval, multi-level aspect-based queries&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
-&lt;h3 id=&#34;journal-articles&#34;&gt;Journal Articles&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;2022&lt;/strong&gt;&lt;br&gt;
-Hemanth Gudaparthi, &lt;strong&gt;Prudhviraj Naidu&lt;/strong&gt;, and Nan Niu. &amp;ldquo;Metamorphic Testing of Image Classification and Consistency Analysis Using Clustering.&amp;rdquo; &lt;em&gt;International Journal of Multimedia Data Engineering and Management (IJMDEM)&lt;/em&gt;, vol.13, no.1, 2022, pp.1-20.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publications</title>

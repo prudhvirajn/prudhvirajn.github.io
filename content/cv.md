@@ -1,107 +1,62 @@
 ---
-title: "Curriculum Vitae (Don't Look, Work In Progress)"
-date: 2023-09-26
+title: "Curriculum Vitae"
+date: 2025-11-30
 draft: false
-ShowToc: true
+ShowToc: false
 TocOpen: false
 ---
 
 # Prudhviraj Naidu
 
-**PhD Student in Computer Science**  
-Email: your.email@domain.com  
-GitHub: [github.com/prudhvirajn](https://github.com/prudhvirajn)  
-Website: [prudhvirajn.github.io](https://prudhvirajn.github.io)
+**PhD Student in Computer Science**
+
+**Email:** prnaidu@ucsd.edu
+
+**LinkedIn:** [linkedin.com/in/prudhvirajn](https://www.linkedin.com/in/prudhvirajn/)
+
+**GitHub:** [github.com/prudhvirajn](https://github.com/prudhvirajn)
+
+**Website:** [prudhvirajn.github.io](https://prudhvirajn.github.io)
 
 ---
 
 ## Education
 
-**PhD in Computer Science** *(Expected: Year)*  
-University Name  
-*Dissertation: [Your dissertation title]*  
-*Advisor: [Advisor Name]*
+**Ph.D. Computer Science** *(Expected: December 2027)*
 
-**[Previous Degree]** *(Year)*  
-University Name  
-*GPA: X.X/4.0*
+University of California San Diego, San Diego, CA
 
----
+*GPA: 3.97/4.0*
 
-## Research Interests
+**Masters of Science, Computer Science** *(March 2024)*
 
-- **Machine Learning**: Deep learning, neural network testing, metamorphic testing
-- **Software Engineering**: Software testing methodologies, quality assurance
-- **Information Retrieval**: Scientific document retrieval, multi-level aspect-based queries
+University of California San Diego, San Diego, CA
 
----
+**Bachelor of Science, Computer Science Honors** *(April 2021)*
 
-## Publications
-
-### Journal Articles
-
-**2022**  
-Hemanth Gudaparthi, **Prudhviraj Naidu**, and Nan Niu. "Metamorphic Testing of Image Classification and Consistency Analysis Using Clustering." *International Journal of Multimedia Data Engineering and Management (IJMDEM)*, vol.13, no.1, 2022, pp.1-20.
-
-### Conference Papers
-
-**2023**  
-Jianyou Wang, Kaicheng Wang, Xiaoyue Wang, **Prudhviraj Naidu**, Leon Bergen, Ramamohan Paturi. "Scientific Document Retrieval using Multi-level Aspect-based Queries." *Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track*, 2023.
-
-**2021**  
-**Prudhviraj Naidu**, Hemanth Gudaparthi, and Nan Niu. "Metamorphic Testing for Convolutional Neural Networks: Relations over Image Classification." *2021 IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI)*, 2021, pp.99-106.
+University of Cincinnati, Cincinnati, OH
 
 ---
 
 ## Experience
 
-**Graduate Research Assistant** *(Year - Present)*  
-University Name  
-- Research on metamorphic testing for machine learning systems
-- Developed novel approaches for neural network validation
-- Collaborated on scientific document retrieval systems
+**Lead Developer** *(January 2024 - August 2024)*
+Lab for Emerging Intelligence, UC San Diego
+- Built and launched an AI-tutor platform used by 600+ students with six developers
+- Collaborated with instructors to align AI-tutors with educational objectives
+- Designed metrics & continual monitoring systems to identify & mitigate AI harm
 
-**[Previous Experience]** *(Years)*  
-Organization Name  
-- Description of responsibilities and achievements
+**Junior Machine Learning Engineer** *(June 2021 - September 2022)*
+Passio Inc
+- Delivered image classification, object detection & tracking solutions for industry leading companies such as Philips, Anthem, MyFitnessPal, Jazeera Paints and Sub-Zero
+- Implemented scalable machine learning pipelines on Google Vertex-AI to train and export classification & object detection mobile models
 
----
+**Machine Learning Engineer, Omniaz** *(May 2019 - April 2020)*
 
-## Skills
-
-**Programming Languages**: Python, Java, C++, R, JavaScript  
-**Machine Learning**: TensorFlow, PyTorch, scikit-learn, Keras  
-**Tools & Technologies**: Git, Docker, Linux/Unix, LaTeX  
-**Databases**: SQL, MongoDB, PostgreSQL
+**Artificial Intelligence Intern, Omniaz** *(January 2019 - April 2019)*
+- Developed end-to-end computer vision pipeline to detect and recognize beverages in supermarkets / retail stores using Object Detection, CBIR, and OCR
+- Built multilingual OCR system to support 4 languages (Chinese, Korean, Japanese, English)
 
 ---
 
-## Awards & Honors
-
-- [Award Name] *(Year)*
-- [Honor/Recognition] *(Year)*
-
----
-
-## Service
-
-**Reviewer**  
-- [Conference/Journal Name] *(Year)*
-
-**Teaching Assistant**  
-- [Course Name] *(Semester Year)*
-
----
-
-## Selected Coursework
-
-- Advanced Machine Learning
-- Software Engineering Principles  
-- Data Mining and Knowledge Discovery
-- Statistical Methods in Computer Science
-
----
-
-*Download PDF version: [CV.pdf](/cv.pdf)*
-
-*Last updated: [Current Date]*
+*Last updated: November 30, 2025*
