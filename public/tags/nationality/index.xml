@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nationality on Prud&#39;s Log</title>
+    <link>http://localhost:1313/tags/nationality/</link>
+    <description>Recent content in Nationality on Prud&#39;s Log</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2026 14:07:15 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nationality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waiting for a Passport</title>
+      <link>http://localhost:1313/posts/waiting-for-a-passport/</link>
+      <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
+      <guid>http://localhost:1313/posts/waiting-for-a-passport/</guid>
+      <description>Short story about me waiting for a passport.</description>
+    </item>
+  </channel>
+</rss>

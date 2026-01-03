@@ -6,8 +6,15 @@
     <description>Recent content on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 14:07:15 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waiting for a Passport</title>
+      <link>http://localhost:1313/posts/waiting-for-a-passport/</link>
+      <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
+      <guid>http://localhost:1313/posts/waiting-for-a-passport/</guid>
+      <description>Short story about me waiting for a passport.</description>
+    </item>
     <item>
       <title>Curriculum Vitae</title>
       <link>http://localhost:1313/cv/</link>
