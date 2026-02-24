@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prud&#39;s Log</title>
-    <link>http://localhost:1313/</link>
+    <link>https://prudhvirajn.github.io/</link>
     <description>Recent content on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 17:57:01 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Marty Supreme (2025)</title>
-      <link>http://localhost:1313/posts/marty-supreme/</link>
-      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
-      <guid>http://localhost:1313/posts/marty-supreme/</guid>
-      <description>A film about narcissism, glory, and changing the rules of the game</description>
-    </item>
+    <lastBuildDate>Sat, 03 Jan 2026 14:07:15 -0800</lastBuildDate>
+    <atom:link href="https://prudhvirajn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waiting for a Passport</title>
-      <link>http://localhost:1313/posts/waiting-for-a-passport/</link>
+      <link>https://prudhvirajn.github.io/posts/waiting-for-a-passport/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>http://localhost:1313/posts/waiting-for-a-passport/</guid>
+      <guid>https://prudhvirajn.github.io/posts/waiting-for-a-passport/</guid>
       <description>Short story about me waiting for a passport.</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>https://prudhvirajn.github.io/cv/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>https://prudhvirajn.github.io/cv/</guid>
       <description>&lt;h1 id=&#34;prudhviraj-naidu&#34;&gt;Prudhviraj Naidu&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;PhD Student in Computer Science&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:prnaidu@ucsd.edu&#34;&gt;prnaidu@ucsd.edu&lt;/a&gt;&lt;/p&gt;
@@ -49,90 +42,83 @@ Lab for Emerging Intelligence, UC San Diego&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Do I Run</title>
-      <link>http://localhost:1313/posts/why-do-i-run/</link>
+      <link>https://prudhvirajn.github.io/posts/why-do-i-run/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>http://localhost:1313/posts/why-do-i-run/</guid>
+      <guid>https://prudhvirajn.github.io/posts/why-do-i-run/</guid>
       <description>Personal story about why I started running. Opinonated view about how to run.</description>
     </item>
     <item>
       <title>Waiting for a Visa</title>
-      <link>http://localhost:1313/posts/waiting-for-a-visa/</link>
+      <link>https://prudhvirajn.github.io/posts/waiting-for-a-visa/</link>
       <pubDate>Sat, 12 Jul 2025 16:34:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/waiting-for-a-visa/</guid>
+      <guid>https://prudhvirajn.github.io/posts/waiting-for-a-visa/</guid>
       <description>Short story about me waiting for a visa.</description>
     </item>
     <item>
-      <title>Berkeley Math Problems</title>
-      <link>http://localhost:1313/posts/berkeley-math-problems/</link>
-      <pubDate>Sun, 06 Jul 2025 19:42:36 -0700</pubDate>
-      <guid>http://localhost:1313/posts/berkeley-math-problems/</guid>
-      <description>Learning Maths through solving problems</description>
-    </item>
-    <item>
       <title>Taylor expansion of Model Behaviour</title>
-      <link>http://localhost:1313/posts/taylor-expansion-of-model-behaviour/</link>
+      <link>https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/</link>
       <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
-      <guid>http://localhost:1313/posts/taylor-expansion-of-model-behaviour/</guid>
+      <guid>https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/</guid>
       <description>Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms</description>
     </item>
     <item>
       <title>Sisyphian Dilemma</title>
-      <link>http://localhost:1313/posts/sisyphian-dilemma/</link>
+      <link>https://prudhvirajn.github.io/posts/sisyphian-dilemma/</link>
       <pubDate>Sun, 23 Feb 2025 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/sisyphian-dilemma/</guid>
+      <guid>https://prudhvirajn.github.io/posts/sisyphian-dilemma/</guid>
       <description>&lt;p&gt;&lt;em&gt;Warning: Unedited First draft, read at your own peril&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Sisyphus is a mortal condemned by Zeus to push a boulder up a slope. When he reaches the top of the slope, the boulder automatically falls down and he has to start again. Sounds like a nightmare right? A work that is never completed?&lt;/p&gt;
 &lt;p&gt;When sisyphus is pushing the boulder, he has only one thing on his mind. To push the boulder up. Why should he push the boulder up? Because the gods commanded it. The ultimate reason: The wishes of the divine. So he had reason and he had a goal thus he had meaning in his work. But what about when the boulder reaches the top? Imagine if the boulder never fell back down. Would he still have meaning? How would he find meaning?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bets 2025</title>
-      <link>http://localhost:1313/posts/bets-2025/</link>
+      <link>https://prudhvirajn.github.io/posts/bets-2025/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/bets-2025/</guid>
+      <guid>https://prudhvirajn.github.io/posts/bets-2025/</guid>
       <description>Verifying previous 6 month bets and making new 6-month bets</description>
     </item>
     <item>
       <title>The Unknown</title>
-      <link>http://localhost:1313/posts/the-unknown/</link>
+      <link>https://prudhvirajn.github.io/posts/the-unknown/</link>
       <pubDate>Tue, 07 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-unknown/</guid>
+      <guid>https://prudhvirajn.github.io/posts/the-unknown/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; The following blog post has not been proof-read due to the author&amp;rsquo;s commitment to posting and writing.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Since it&amp;rsquo;s the new year, I had to do my predictions for the next 6 months. But strangely, I am having a hard time. More so, this is probably the first time in my life, I can not imagine a realistic future for me. Weirdly, I am quite confident on how the future of the world might look like (I am not saying it&amp;rsquo;s fixed but I do believe the probabilities are concentrated on few possible trajectories).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code Review Contest</title>
-      <link>http://localhost:1313/posts/code-review-contest/</link>
+      <link>https://prudhvirajn.github.io/posts/code-review-contest/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/code-review-contest/</guid>
+      <guid>https://prudhvirajn.github.io/posts/code-review-contest/</guid>
       <description>Few more people did code review. I ended up trying to automate code review with Claude github action</description>
     </item>
     <item>
       <title>Bets 2024</title>
-      <link>http://localhost:1313/posts/bets-2024/</link>
+      <link>https://prudhvirajn.github.io/posts/bets-2024/</link>
       <pubDate>Sun, 30 Jun 2024 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/bets-2024/</guid>
+      <guid>https://prudhvirajn.github.io/posts/bets-2024/</guid>
       <description>Bets for 6 months, 1 year and 5 year</description>
     </item>
     <item>
       <title>Turning 25</title>
-      <link>http://localhost:1313/posts/turning-25/</link>
+      <link>https://prudhvirajn.github.io/posts/turning-25/</link>
       <pubDate>Tue, 21 May 2024 00:03:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/turning-25/</guid>
+      <guid>https://prudhvirajn.github.io/posts/turning-25/</guid>
       <description>Reflections on my life till turning 25.</description>
     </item>
     <item>
       <title>ChatGPT Ain&#39;t It</title>
-      <link>http://localhost:1313/posts/chatgpt-aint-it/</link>
+      <link>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</link>
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
-      <guid>http://localhost:1313/posts/chatgpt-aint-it/</guid>
+      <guid>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</guid>
       <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
+      <link>https://prudhvirajn.github.io/publications/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
+      <guid>https://prudhvirajn.github.io/publications/</guid>
       <description>&lt;h2 id=&#34;journal-publications&#34;&gt;Journal Publications&lt;/h2&gt;
 &lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Hemanth Gudaparthi, Prudhviraj Naidu, and Nan Niu&lt;/strong&gt;&lt;br&gt;
@@ -152,23 +138,23 @@ Lab for Emerging Intelligence, UC San Diego&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Perfect State (What is a State)</title>
-      <link>http://localhost:1313/posts/the-perfect-state-what-is-a-state/</link>
+      <link>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-perfect-state-what-is-a-state/</guid>
+      <guid>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</guid>
       <description>Exploring the fundamental question of what constitutes a state through security, economy, and society perspectives.</description>
     </item>
     <item>
       <title>The Perfect State (Introduction)</title>
-      <link>http://localhost:1313/posts/perfect-state-introduction/</link>
+      <link>https://prudhvirajn.github.io/posts/perfect-state-introduction/</link>
       <pubDate>Fri, 05 Jun 2020 21:29:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/perfect-state-introduction/</guid>
+      <guid>https://prudhvirajn.github.io/posts/perfect-state-introduction/</guid>
       <description>Introduction to a series of articles exploring ideas for a perfect state and modern administration.</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://prudhvirajn.github.io/posts/first-post/</link>
       <pubDate>Sat, 14 Mar 2020 00:06:52 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://prudhvirajn.github.io/posts/first-post/</guid>
       <description>The first post on my personal website - a brief introduction.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mental-Health on Prud&#39;s Log</title>
-    <link>http://localhost:1313/tags/mental-health/</link>
+    <link>https://prudhvirajn.github.io/tags/mental-health/</link>
     <description>Recent content in Mental-Health on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 21:43:40 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://prudhvirajn.github.io/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Do I Run</title>
-      <link>http://localhost:1313/posts/why-do-i-run/</link>
+      <link>https://prudhvirajn.github.io/posts/why-do-i-run/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>http://localhost:1313/posts/why-do-i-run/</guid>
+      <guid>https://prudhvirajn.github.io/posts/why-do-i-run/</guid>
       <description>Personal story about why I started running. Opinonated view about how to run.</description>
     </item>
   </channel>

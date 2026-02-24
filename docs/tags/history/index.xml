@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>History on Prud&#39;s Log</title>
-    <link>http://localhost:1313/tags/history/</link>
+    <link>https://prudhvirajn.github.io/tags/history/</link>
     <description>Recent content in History on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Jul 2025 16:34:19 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://prudhvirajn.github.io/tags/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Waiting for a Visa</title>
-      <link>http://localhost:1313/posts/waiting-for-a-visa/</link>
+      <link>https://prudhvirajn.github.io/posts/waiting-for-a-visa/</link>
       <pubDate>Sat, 12 Jul 2025 16:34:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/waiting-for-a-visa/</guid>
+      <guid>https://prudhvirajn.github.io/posts/waiting-for-a-visa/</guid>
       <description>Short story about me waiting for a visa.</description>
     </item>
   </channel>
