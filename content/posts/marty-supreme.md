@@ -1,7 +1,7 @@
 ---
 title: "Marty Supreme (2025)"
 date: 2026-01-28T17:57:01+05:30
-draft: true
+draft: false
 tags: ["movie", "film", "movie-review", "glory", "narcissism"]
 categories: ["movie-review"]
 summary: "A film about narcissism, glory, and changing the rules of the game"
