@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-03T14:07:15-08:00</lastmod>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-03T14:07:15-08:00</lastmod>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/film/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/glory/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/marty-supreme/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/movie/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/movie-review/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/movie-review/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/narcissism/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-28T17:57:01+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/citizenship/</loc>
     <lastmod>2026-01-03T14:07:15-08:00</lastmod>
@@ -21,12 +48,6 @@
     <lastmod>2026-01-03T14:07:15-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/personal/</loc>
-    <lastmod>2026-01-03T14:07:15-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-03T14:07:15-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-03T14:07:15-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/waiting-for-a-passport/</loc>
