@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Technology on Prud&#39;s Log</title>
-    <link>https://prudhvirajn.github.io/tags/technology/</link>
+    <link>http://localhost:1313/tags/technology/</link>
     <description>Recent content in Technology on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 13:54:08 -0700</lastBuildDate>
-    <atom:link href="https://prudhvirajn.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bets 2025</title>
-      <link>https://prudhvirajn.github.io/posts/bets-2025/</link>
+      <link>http://localhost:1313/posts/bets-2025/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/posts/bets-2025/</guid>
+      <guid>http://localhost:1313/posts/bets-2025/</guid>
       <description>Verifying previous 6 month bets and making new 6-month bets</description>
     </item>
     <item>
       <title>Bets 2024</title>
-      <link>https://prudhvirajn.github.io/posts/bets-2024/</link>
+      <link>http://localhost:1313/posts/bets-2024/</link>
       <pubDate>Sun, 30 Jun 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/posts/bets-2024/</guid>
+      <guid>http://localhost:1313/posts/bets-2024/</guid>
       <description>Bets for 6 months, 1 year and 5 year</description>
     </item>
     <item>
       <title>ChatGPT Ain&#39;t It</title>
-      <link>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</link>
+      <link>http://localhost:1313/posts/chatgpt-aint-it/</link>
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/posts/chatgpt-aint-it/</guid>
+      <guid>http://localhost:1313/posts/chatgpt-aint-it/</guid>
       <description>Reflections on the marvel of ChatGPT technology and its impact on programming and debugging.</description>
     </item>
   </channel>

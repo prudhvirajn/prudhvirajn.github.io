@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Taylor expansion of Model Behaviour | Prud&#39;s Log</title>
 <meta name="keywords" content="math, machine-learning, statistics">
 <meta name="description" content="Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms">
 <meta name="author" content="Prudhviraj Naidu">
-<link rel="canonical" href="https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/">
+<link rel="canonical" href="http://localhost:1313/posts/taylor-expansion-of-model-behaviour/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e7df42763d8de318466c4e083e726ef1427564ee027449f8754ebebe290054cc.css" integrity="sha256-599Cdj2N4xhGbE4IPnJu8UJ1ZO4CdEn4dU6&#43;vikAVMw=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://prudhvirajn.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://prudhvirajn.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://prudhvirajn.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://prudhvirajn.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://prudhvirajn.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/taylor-expansion-of-model-behaviour/">
 <noscript>
     <style>
         #theme-toggle,
@@ -77,76 +77,7 @@ window.addEventListener('load', (event) => {
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><meta property="og:url" content="https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/">
-  <meta property="og:site_name" content="Prud&#39;s Log">
-  <meta property="og:title" content="Taylor expansion of Model Behaviour">
-  <meta property="og:description" content="Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-07-06T15:51:49-07:00">
-    <meta property="article:modified_time" content="2025-07-06T15:51:49-07:00">
-    <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Machine-Learning">
-    <meta property="article:tag" content="Statistics">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Taylor expansion of Model Behaviour">
-<meta name="twitter:description" content="Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://prudhvirajn.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Taylor expansion of Model Behaviour",
-      "item": "https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Taylor expansion of Model Behaviour",
-  "name": "Taylor expansion of Model Behaviour",
-  "description": "Model behaviour changes maybe dependent on Hessian, Learning Rate and Weight Norms",
-  "keywords": [
-    "math", "machine-learning", "statistics"
-  ],
-  "articleBody": "Warning: First draft, read at your own peril\nBackground Language models are probabilistic models $P_{\\theta}(x)$ where $x$ is a string and $\\theta$ is the model parameters. During gradient descent, we update $\\theta$ and calculate loss (or error function) $L(\\theta)$.\nIn this article, I want to understand how the model changes when we change $\\theta$ at timestep $t+1$ w.r.t the previous timestep $\\theta_t$. This article is partially motivated by Natural Gradients1 and partly because I am driven by nightmares that I am not setting the learning rate correctly! xD\nThese derivations were shown by Andy1. I just want to re-write them for my understanding.\nThe first two terms are zero Let $P_{\\theta}$ refer to the probability measure induced by $\\theta$ on some set of strings $X$.\n$$ \\begin{aligned} D_{KL}(P_{\\theta_t} || P_{\\theta}) \u0026\\approx D_{KL}(P_{\\theta_t} || P_{\\theta}) \\\\ \u0026\\quad + (\\nabla_{\\theta} D_{KL}(P_{\\theta_t} || P_{\\theta}) \\left. \\right|_{\\theta=\\theta_t}) (\\theta - \\theta_t) \\\\ \u0026\\quad + (\\theta - \\theta_t)^{\\top} H(\\theta_t) (\\theta - \\theta_t) \\end{aligned} $$ where H is the Hessian w.r.t $\\theta$.\nThe first term $D_{KL}(P_{\\theta_t} || P_{\\theta_t})$ is $0$ as the probability distributions are the same.\nThe second term is also $0$. This is quite interesting.\n$$ \\begin{aligned} \\nabla_{\\theta} D_{KL}(P_{\\theta_t} || P_{\\theta}) \\left. \\right|_{\\theta=\\theta_t} \u0026= \\nabla_{\\theta}\\ \\mathbb{E}_{x \\sim P_{\\theta_t}} \\left[\\log \\frac{P_{\\theta_t} (x)}{P_{\\theta} (x)} \\right] \\left. \\right|_{\\theta=\\theta_t} \\\\ \\text{ Since the $x$ is drawn from $P_{\\theta_t}$ which does not depend on $\\theta$} \\\\ \u0026= \\mathbb{E}_{x \\sim P_{\\theta_t}} \\nabla_{\\theta}\\ \\left[\\log \\frac{P_{\\theta_t} (x)}{P_{\\theta} (x)} \\right] \\left. \\right|_{\\theta=\\theta_t} \\\\ \u0026= \\mathbb{E}_{x \\sim P_{\\theta_t}} \\nabla_{\\theta}\\ \\left[\\log P_{\\theta_t} (x) - \\log P_{\\theta} (x) \\right] \\left. \\right|_{\\theta=\\theta_t} \\\\ \\text{Since $P_{\\theta_t} (x)$ does not depend on $\\theta$} \\\\ \u0026= \\mathbb{E}_{x \\sim P_{\\theta_t}} \\left[- \\nabla_{\\theta}\\ \\log P_{\\theta} (x) \\right] \\left. \\right|_{\\theta=\\theta_t} \\\\ \u0026= -\\mathbb{E}_{x \\sim P_{\\theta_t}} \\left[\\nabla_{\\theta}\\ \\log P_{\\theta} (x) \\right] \\left. \\right|_{\\theta=\\theta_t} \\\\ \\text{As we are evaluating the gradient at $\\theta=\\theta_t$ } \\\\ \u0026= -\\mathbb{E}_{x \\sim P_{\\theta_t}} \\frac{1}{P_{\\theta_t} (x)} \\nabla_{\\theta}\\ P_{\\theta} (x) \\left. \\right|_{\\theta=\\theta_t}\\\\ \u0026= -\\sum_{x} P_{\\theta_t} (x) \\frac{1}{P_{\\theta_t} (x)} \\nabla_{\\theta}\\ P_{\\theta} (x) \\left. \\right|_{\\theta=\\theta_t}\\\\ \u0026= -\\sum_{x} \\nabla_{\\theta}\\ P_{\\theta} (x) \\left. \\right|_{\\theta=\\theta_t}\\\\ \\text{By the magic of linearity} \\\\ \u0026= -\\nabla_{\\theta}\\ \\sum_{x} P_{\\theta} (x) \\left. \\right|_{\\theta=\\theta_t}\\\\ \u0026= -\\nabla_{\\theta}\\ 1 \\\\ \u0026= 0 \\\\ \\end{aligned} $$ This means $D_{KL}(P_{\\theta_t} || P_{\\theta}) \\approx (\\theta - \\theta_t)^{\\top} H(\\theta_t) (\\theta - \\theta_t)$.\nBounded weight updates bound behaviour Let’s ask the question what is the maximum $D_{KL}(P_{\\theta_t} || P_{\\theta})$ given finite weight updates $\\Delta \\theta$.\n$$ \\begin{aligned} D_{KL}(P_{\\theta_t} || P_{\\theta}) \u0026\\approx \\frac{1}{2}(\\Delta \\theta)^{\\top} H(\\theta_t) (\\Delta \\theta) \\\\ \u0026\\le \\frac{1}{2}(\\Delta \\theta)^{\\top} \\lambda_{max}(\\theta_t) I (\\Delta \\theta) \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) (\\Delta \\theta)^{\\top} (\\Delta \\theta) \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\| \\Delta \\theta \\|^2_2 \\\\ \\end{aligned} $$ where $\\lambda_{max}(\\theta_t)$ is the largest eigenvalue of $H(\\theta_t)$\nIf we consider a weight update in SGD with l2 regularization:\n$$ \\theta_{t+1} = \\theta_{t} - \\nu_t (g_t + \\gamma \\theta_t) $$ where $\\nu_t$ is the step multiplier (or learning rate at step t) and $\\gamma$ is the weight decay coefficient. Furthermore, let’s presume that the gradient norm is clipped to 1 which is a standard practice.\n$$ \\begin{aligned} D_{KL}(P_{\\theta_t} || P_{\\theta_{t+1}}) \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\| \\Delta \\theta \\|^2_2 \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\| \\nu_t (g_t + \\gamma \\theta_t) \\|^2_2 \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\nu_t^2 \\| (g_t + \\gamma \\theta_t) \\|^2_2 \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\nu_t^2 \\left( \\| g_t \\|_2 + \\| \\gamma \\theta_t \\|_2 \\right)^2 \\\\ \u0026\\le \\frac{1}{2}\\lambda_{max}(\\theta_t) \\nu_t^2 \\left( 1 + \\gamma \\| \\theta_t \\|_2 \\right)^2 \\\\ \\end{aligned} $$ We can conclude three things from the bound $D_{KL}(P_{\\theta_t} || P_{\\theta_{t + 1}})$:\nThe eigenvalues of the Hessian influence model behaviour.\nWeight regularization only increases the magnitude of KL-divergence.\nSmaller learning rate limits change in model behaviour in accordance with expectation.\nIt would be interesting to see how problem formulation or model architecture can change the Hessian. This may suggest certain training methodologies more readily change model behaviours.\nIn fine-tuning, practioners use small learning rates. Despite this, the model behaviours seems to change drastically. This maybe because of we measure other metrics rather than KL-divergence but it may also hint that the eigenvalues of the Hessian are large.\nGhorbani et al, 20192 shows the eigenvalues of the Hessian getting larger during training. They demonstrated this for ResNet over image datasets.\nWe could view pre-training through the lens of eigenstructure of the hessian. Pre-training neural networks helps with finetuning. Measure the PSD-ness of the Hessian could serve as an indicator of how much the behaviour could change during fine-tuning (even RL-finetuning).\nFootnotes Andy Jones. “Natural gradients” ↩︎ ↩︎\nBehrooz Ghorbani, Shankar Krishnan, Ying Xiao. ICML 2019. “An Investigation into Neural Net Optimization via Hessian Eigenvalue Density” ↩︎\n",
-  "wordCount" : "739",
-  "inLanguage": "en",
-  "datePublished": "2025-07-06T15:51:49-07:00",
-  "dateModified": "2025-07-06T15:51:49-07:00",
-  "author":{
-    "@type": "Person",
-    "name": "Prudhviraj Naidu"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://prudhvirajn.github.io/posts/taylor-expansion-of-model-behaviour/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Prud's Log",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://prudhvirajn.github.io/favicon.ico"
-    }
-  }
-}
-</script>
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body class="" id="top">
@@ -160,23 +91,23 @@ window.addEventListener('load', (event) => {
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://prudhvirajn.github.io/" accesskey="h" title="Prud&#39;s Log (Alt + H)">Prud&#39;s Log</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Prud&#39;s Log (Alt + H)">Prud&#39;s Log</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://prudhvirajn.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://prudhvirajn.github.io/posts/" title="Blog">
+                <a href="http://localhost:1313/posts/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="https://prudhvirajn.github.io/cv/" title="CV">
+                <a href="http://localhost:1313/cv/" title="CV">
                     <span>CV</span>
                 </a>
             </li>
@@ -321,16 +252,16 @@ $$
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://prudhvirajn.github.io/tags/math/">Math</a></li>
-      <li><a href="https://prudhvirajn.github.io/tags/machine-learning/">Machine-Learning</a></li>
-      <li><a href="https://prudhvirajn.github.io/tags/statistics/">Statistics</a></li>
+      <li><a href="http://localhost:1313/tags/math/">Math</a></li>
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine-Learning</a></li>
+      <li><a href="http://localhost:1313/tags/statistics/">Statistics</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2026 <a href="https://prudhvirajn.github.io/">Prud&#39;s Log</a></span>
+    <span>&copy; 2026 <a href="http://localhost:1313/">Prud&#39;s Log</a></span>
     <span> · Inspired by <a href="https://lilianweng.github.io/" rel="noopener noreferrer" target="_blank">Lil'Log</a></span>
     <span> · 
         Powered by

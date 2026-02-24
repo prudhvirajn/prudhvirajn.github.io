@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Prud&#39;s Log</title>
-    <link>https://prudhvirajn.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 14:07:15 -0800</lastBuildDate>
-    <atom:link href="https://prudhvirajn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jan 2026 17:57:01 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movie-Review</title>
+      <link>http://localhost:1313/categories/movie-review/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/categories/movie-review/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Personal</title>
-      <link>https://prudhvirajn.github.io/categories/personal/</link>
+      <link>http://localhost:1313/categories/personal/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/personal/</guid>
+      <guid>http://localhost:1313/categories/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>https://prudhvirajn.github.io/categories/machine-learning/</link>
-      <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/machine-learning/</guid>
+      <link>http://localhost:1313/categories/machine-learning/</link>
+      <pubDate>Sun, 06 Jul 2025 19:42:36 -0700</pubDate>
+      <guid>http://localhost:1313/categories/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Bets</title>
-      <link>https://prudhvirajn.github.io/categories/bets/</link>
+      <link>http://localhost:1313/categories/bets/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/bets/</guid>
+      <guid>http://localhost:1313/categories/bets/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
-      <link>https://prudhvirajn.github.io/categories/future/</link>
+      <link>http://localhost:1313/categories/future/</link>
       <pubDate>Tue, 07 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/future/</guid>
+      <guid>http://localhost:1313/categories/future/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Engineering</title>
-      <link>https://prudhvirajn.github.io/categories/software-engineering/</link>
+      <link>http://localhost:1313/categories/software-engineering/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/software-engineering/</guid>
+      <guid>http://localhost:1313/categories/software-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://prudhvirajn.github.io/categories/technology/</link>
+      <link>http://localhost:1313/categories/technology/</link>
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/technology/</guid>
+      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Political-Theory</title>
-      <link>https://prudhvirajn.github.io/categories/political-theory/</link>
+      <link>http://localhost:1313/categories/political-theory/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/categories/political-theory/</guid>
+      <guid>http://localhost:1313/categories/political-theory/</guid>
       <description></description>
     </item>
   </channel>

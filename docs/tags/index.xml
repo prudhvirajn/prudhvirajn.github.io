@@ -2,269 +2,304 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Prud&#39;s Log</title>
-    <link>https://prudhvirajn.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 14:07:15 -0800</lastBuildDate>
-    <atom:link href="https://prudhvirajn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jan 2026 17:57:01 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Film</title>
+      <link>http://localhost:1313/tags/film/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/tags/film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Glory</title>
+      <link>http://localhost:1313/tags/glory/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/tags/glory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movie</title>
+      <link>http://localhost:1313/tags/movie/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/tags/movie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movie-Review</title>
+      <link>http://localhost:1313/tags/movie-review/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/tags/movie-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Narcissism</title>
+      <link>http://localhost:1313/tags/narcissism/</link>
+      <pubDate>Wed, 28 Jan 2026 17:57:01 +0530</pubDate>
+      <guid>http://localhost:1313/tags/narcissism/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Citizenship</title>
-      <link>https://prudhvirajn.github.io/tags/citizenship/</link>
+      <link>http://localhost:1313/tags/citizenship/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/citizenship/</guid>
+      <guid>http://localhost:1313/tags/citizenship/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian</title>
-      <link>https://prudhvirajn.github.io/tags/indian/</link>
+      <link>http://localhost:1313/tags/indian/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/indian/</guid>
+      <guid>http://localhost:1313/tags/indian/</guid>
       <description></description>
     </item>
     <item>
       <title>Nationality</title>
-      <link>https://prudhvirajn.github.io/tags/nationality/</link>
+      <link>http://localhost:1313/tags/nationality/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/nationality/</guid>
+      <guid>http://localhost:1313/tags/nationality/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
-      <link>https://prudhvirajn.github.io/tags/personal/</link>
+      <link>http://localhost:1313/tags/personal/</link>
       <pubDate>Sat, 03 Jan 2026 14:07:15 -0800</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/personal/</guid>
+      <guid>http://localhost:1313/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Exercise</title>
-      <link>https://prudhvirajn.github.io/tags/exercise/</link>
+      <link>http://localhost:1313/tags/exercise/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/exercise/</guid>
+      <guid>http://localhost:1313/tags/exercise/</guid>
       <description></description>
     </item>
     <item>
       <title>Health</title>
-      <link>https://prudhvirajn.github.io/tags/health/</link>
+      <link>http://localhost:1313/tags/health/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/health/</guid>
+      <guid>http://localhost:1313/tags/health/</guid>
       <description></description>
     </item>
     <item>
       <title>Hobby</title>
-      <link>https://prudhvirajn.github.io/tags/hobby/</link>
+      <link>http://localhost:1313/tags/hobby/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/hobby/</guid>
+      <guid>http://localhost:1313/tags/hobby/</guid>
       <description></description>
     </item>
     <item>
       <title>Mental-Health</title>
-      <link>https://prudhvirajn.github.io/tags/mental-health/</link>
+      <link>http://localhost:1313/tags/mental-health/</link>
       <pubDate>Sun, 27 Jul 2025 21:43:40 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/mental-health/</guid>
+      <guid>http://localhost:1313/tags/mental-health/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
-      <link>https://prudhvirajn.github.io/tags/history/</link>
+      <link>http://localhost:1313/tags/history/</link>
       <pubDate>Sat, 12 Jul 2025 16:34:19 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/history/</guid>
+      <guid>http://localhost:1313/tags/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Policy</title>
-      <link>https://prudhvirajn.github.io/tags/policy/</link>
+      <link>http://localhost:1313/tags/policy/</link>
       <pubDate>Sat, 12 Jul 2025 16:34:19 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/policy/</guid>
+      <guid>http://localhost:1313/tags/policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://prudhvirajn.github.io/tags/privacy/</link>
+      <link>http://localhost:1313/tags/privacy/</link>
       <pubDate>Sat, 12 Jul 2025 16:34:19 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/privacy/</guid>
+      <guid>http://localhost:1313/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>https://prudhvirajn.github.io/tags/machine-learning/</link>
-      <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/machine-learning/</guid>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Sun, 06 Jul 2025 19:42:36 -0700</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>https://prudhvirajn.github.io/tags/math/</link>
-      <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/math/</guid>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Sun, 06 Jul 2025 19:42:36 -0700</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistics</title>
-      <link>https://prudhvirajn.github.io/tags/statistics/</link>
-      <pubDate>Sun, 06 Jul 2025 15:51:49 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/statistics/</guid>
+      <link>http://localhost:1313/tags/statistics/</link>
+      <pubDate>Sun, 06 Jul 2025 19:42:36 -0700</pubDate>
+      <guid>http://localhost:1313/tags/statistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophical</title>
-      <link>https://prudhvirajn.github.io/tags/philosophical/</link>
+      <link>http://localhost:1313/tags/philosophical/</link>
       <pubDate>Sun, 23 Feb 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/philosophical/</guid>
+      <guid>http://localhost:1313/tags/philosophical/</guid>
       <description></description>
     </item>
     <item>
       <title>Sisyphus</title>
-      <link>https://prudhvirajn.github.io/tags/sisyphus/</link>
+      <link>http://localhost:1313/tags/sisyphus/</link>
       <pubDate>Sun, 23 Feb 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/sisyphus/</guid>
+      <guid>http://localhost:1313/tags/sisyphus/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://prudhvirajn.github.io/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Bets</title>
-      <link>https://prudhvirajn.github.io/tags/bets/</link>
+      <link>http://localhost:1313/tags/bets/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/bets/</guid>
+      <guid>http://localhost:1313/tags/bets/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
-      <link>https://prudhvirajn.github.io/tags/future/</link>
+      <link>http://localhost:1313/tags/future/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/future/</guid>
+      <guid>http://localhost:1313/tags/future/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictions</title>
-      <link>https://prudhvirajn.github.io/tags/predictions/</link>
+      <link>http://localhost:1313/tags/predictions/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/predictions/</guid>
+      <guid>http://localhost:1313/tags/predictions/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://prudhvirajn.github.io/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Mon, 27 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Unknown</title>
-      <link>https://prudhvirajn.github.io/tags/unknown/</link>
+      <link>http://localhost:1313/tags/unknown/</link>
       <pubDate>Tue, 07 Jan 2025 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/unknown/</guid>
+      <guid>http://localhost:1313/tags/unknown/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Review</title>
-      <link>https://prudhvirajn.github.io/tags/code-review/</link>
+      <link>http://localhost:1313/tags/code-review/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/code-review/</guid>
+      <guid>http://localhost:1313/tags/code-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>https://prudhvirajn.github.io/tags/project/</link>
+      <link>http://localhost:1313/tags/project/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/project/</guid>
+      <guid>http://localhost:1313/tags/project/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Lead</title>
-      <link>https://prudhvirajn.github.io/tags/project-lead/</link>
+      <link>http://localhost:1313/tags/project-lead/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/project-lead/</guid>
+      <guid>http://localhost:1313/tags/project-lead/</guid>
       <description></description>
     </item>
     <item>
       <title>Start Up</title>
-      <link>https://prudhvirajn.github.io/tags/start-up/</link>
+      <link>http://localhost:1313/tags/start-up/</link>
       <pubDate>Sun, 07 Jul 2024 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/start-up/</guid>
+      <guid>http://localhost:1313/tags/start-up/</guid>
       <description></description>
     </item>
     <item>
       <title>Childhood</title>
-      <link>https://prudhvirajn.github.io/tags/childhood/</link>
+      <link>http://localhost:1313/tags/childhood/</link>
       <pubDate>Tue, 21 May 2024 00:03:00 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/childhood/</guid>
+      <guid>http://localhost:1313/tags/childhood/</guid>
       <description></description>
     </item>
     <item>
       <title>Growing Old</title>
-      <link>https://prudhvirajn.github.io/tags/growing-old/</link>
+      <link>http://localhost:1313/tags/growing-old/</link>
       <pubDate>Tue, 21 May 2024 00:03:00 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/growing-old/</guid>
+      <guid>http://localhost:1313/tags/growing-old/</guid>
       <description></description>
     </item>
     <item>
       <title>Reflection</title>
-      <link>https://prudhvirajn.github.io/tags/reflection/</link>
+      <link>http://localhost:1313/tags/reflection/</link>
       <pubDate>Tue, 21 May 2024 00:03:00 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/reflection/</guid>
+      <guid>http://localhost:1313/tags/reflection/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>https://prudhvirajn.github.io/tags/chatgpt/</link>
+      <link>http://localhost:1313/tags/chatgpt/</link>
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/chatgpt/</guid>
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://prudhvirajn.github.io/tags/programming/</link>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Tue, 26 Sep 2023 13:54:08 -0700</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Governance</title>
-      <link>https://prudhvirajn.github.io/tags/governance/</link>
+      <link>http://localhost:1313/tags/governance/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/governance/</guid>
+      <guid>http://localhost:1313/tags/governance/</guid>
       <description></description>
     </item>
     <item>
       <title>Perfect-State</title>
-      <link>https://prudhvirajn.github.io/tags/perfect-state/</link>
+      <link>http://localhost:1313/tags/perfect-state/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/perfect-state/</guid>
+      <guid>http://localhost:1313/tags/perfect-state/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>https://prudhvirajn.github.io/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Political-Theory</title>
-      <link>https://prudhvirajn.github.io/tags/political-theory/</link>
+      <link>http://localhost:1313/tags/political-theory/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/political-theory/</guid>
+      <guid>http://localhost:1313/tags/political-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Administration</title>
-      <link>https://prudhvirajn.github.io/tags/administration/</link>
+      <link>http://localhost:1313/tags/administration/</link>
       <pubDate>Fri, 05 Jun 2020 21:29:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/administration/</guid>
+      <guid>http://localhost:1313/tags/administration/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>https://prudhvirajn.github.io/tags/introduction/</link>
+      <link>http://localhost:1313/tags/introduction/</link>
       <pubDate>Sat, 14 Mar 2020 00:06:52 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/tags/introduction/</guid>
+      <guid>http://localhost:1313/tags/introduction/</guid>
       <description></description>
     </item>
   </channel>

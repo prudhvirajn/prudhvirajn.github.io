@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Perfect-State on Prud&#39;s Log</title>
-    <link>https://prudhvirajn.github.io/tags/perfect-state/</link>
+    <link>http://localhost:1313/tags/perfect-state/</link>
     <description>Recent content in Perfect-State on Prud&#39;s Log</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jun 2020 14:37:00 +0000</lastBuildDate>
-    <atom:link href="https://prudhvirajn.github.io/tags/perfect-state/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/perfect-state/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Perfect State (What is a State)</title>
-      <link>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</link>
+      <link>http://localhost:1313/posts/the-perfect-state-what-is-a-state/</link>
       <pubDate>Sun, 07 Jun 2020 14:37:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/posts/the-perfect-state-what-is-a-state/</guid>
+      <guid>http://localhost:1313/posts/the-perfect-state-what-is-a-state/</guid>
       <description>Exploring the fundamental question of what constitutes a state through security, economy, and society perspectives.</description>
     </item>
     <item>
       <title>The Perfect State (Introduction)</title>
-      <link>https://prudhvirajn.github.io/posts/perfect-state-introduction/</link>
+      <link>http://localhost:1313/posts/perfect-state-introduction/</link>
       <pubDate>Fri, 05 Jun 2020 21:29:00 +0000</pubDate>
-      <guid>https://prudhvirajn.github.io/posts/perfect-state-introduction/</guid>
+      <guid>http://localhost:1313/posts/perfect-state-introduction/</guid>
       <description>Introduction to a series of articles exploring ideas for a perfect state and modern administration.</description>
     </item>
   </channel>
