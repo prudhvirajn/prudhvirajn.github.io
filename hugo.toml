@@ -2,6 +2,7 @@ baseURL = "https://prudhvirajn.github.io"
 languageCode = "en-us"
 title = "Prud's Log"
 theme = "PaperMod"
+publishDir = "docs"
 
 # Enable math rendering
 [markup]
@@ -17,6 +18,8 @@ theme = "PaperMod"
   author = "Prudhviraj Naidu"
   description = "PhD student in Computer Science with focus on machine learning and software engineering"
   keywords = ["Computer Science", "Machine Learning", "Software Engineering", "Research"]
+  defaultTheme = "light"
+  disableThemeToggle = true
   
   # Profile settings
   [params.profileMode]
@@ -28,8 +31,8 @@ theme = "PaperMod"
   # Enable math rendering with KaTeX
   math = true
   
-  # Custom footer text
-  customFooter = "Inspired by [Lil'Log](https://lilianweng.github.io/)"
+  [params.footer]
+    text = "Inspired by [Lil'Log](https://lilianweng.github.io/)"
   
   # Social links
   [[params.socialIcons]]
@@ -38,7 +41,7 @@ theme = "PaperMod"
   
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:your.email@domain.com"  # Replace with your email
+    url = "mailto:prnaidu@ucsd.edu"
 
 # Menu configuration
 [menu]
@@ -50,7 +53,7 @@ theme = "PaperMod"
   
   [[menu.main]]
     identifier = "blog"
-    name = "Blog"
+    name = "Writing"
     url = "/posts/"
     weight = 20
   
@@ -59,9 +62,6 @@ theme = "PaperMod"
     name = "CV"
     url = "/cv/"
     weight = 30
-
-# Output settings for GitHub Pages
-publishDir = "docs"
 
 # Enable tags and categories
 [taxonomies]

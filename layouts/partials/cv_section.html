@@ -1,0 +1,19 @@
+<section class="cv-section">
+    <div>
+        <div class="section-label">{{ .label }}</div>
+    </div>
+    <div class="cv-section__items">
+        {{ range .items }}
+        <div class="cv-item">
+            <div class="cv-item__year">{{ .year }}</div>
+            <div class="cv-item__body">
+                <h3>{{ .title }}</h3>
+                <div class="cv-item__detail">{{ .detail | safeHTML }}</div>
+                {{ with .note }}
+                <div class="cv-item__note">{{ . | safeHTML }}</div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

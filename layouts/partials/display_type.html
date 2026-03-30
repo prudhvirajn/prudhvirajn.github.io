@@ -1,0 +1,19 @@
+{{- $label := "Writing" -}}
+{{- with index .Params.categories 0 -}}
+    {{- if eq . "movie-review" -}}
+        {{- $label = "Film" -}}
+    {{- else if eq . "personal" -}}
+        {{- $label = "Essay" -}}
+    {{- else if or (eq . "future") (eq . "bets") -}}
+        {{- $label = "Note" -}}
+    {{- else if or (eq . "machine-learning") (eq . "software-engineering") -}}
+        {{- $label = "Research" -}}
+    {{- else -}}
+        {{- $label = replace . "-" " " | title -}}
+    {{- end -}}
+{{- else -}}
+    {{- with index .Params.tags 0 -}}
+        {{- $label = replace . "-" " " | title -}}
+    {{- end -}}
+{{- end -}}
+{{- $label -}}

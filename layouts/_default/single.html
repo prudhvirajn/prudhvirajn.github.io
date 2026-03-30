@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+
+{{ if and .File (eq .File.BaseFileName "cv") }}
+<div class="page-shell page-shell--cv">
+    <section class="page-intro page-intro--cv">
+        <div class="cv-hero">
+            <div class="cv-hero__copy">
+                <div class="section-label">Curriculum Vitae</div>
+                <h1 class="display-title">{{ $profile.cv_name }}</h1>
+                <p class="cv-subtitle">{{ $profile.cv_role }}</p>
+                <div class="inline-links inline-links--cv">
+                    <a href="mailto:{{ $profile.email }}">{{ $profile.email }}</a>
+                    <a href="{{ $profile.scholar_url }}">Google Scholar</a>
+                    <a href="{{ $profile.github_url }}">GitHub</a>
+                    <a href="{{ $profile.linkedin_url }}">LinkedIn</a>
+                    {{ with $profile.cv_pdf_url }}
+                    <a href="{{ . }}">Download PDF</a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ with $profile.cv_photo }}
+            <div class="cv-hero__photo-wrap">
+                <img class="cv-hero__photo" src="{{ . }}" alt="{{ $profile.cv_name }}">
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <div class="editorial-rule"></div>
+    {{ partial "cv_section.html" (dict "label" "Education" "items" $profile.cv_education) }}
+    <div class="editorial-rule"></div>
+    {{ partial "cv_section.html" (dict "label" "Experience" "items" $profile.cv_experience) }}
+    <div class="editorial-rule"></div>
+    {{ partial "cv_section.html" (dict "label" "Publications" "items" $profile.cv_publications) }}
+</div>
+{{ else if and .File (eq .File.BaseFileName "publications") }}
+<div class="page-shell page-shell--publications">
+    <section class="page-intro">
+        <div class="section-label">Selected Publications</div>
+        <h1 class="display-title">Papers, projects, and technical work.</h1>
+        <p class="display-copy">A short list of research that best represents the kinds of questions I have spent time on.</p>
+    </section>
+
+    <div class="editorial-rule"></div>
+
+    <section class="feature-list">
+        {{ range $profile.selected_work }}
+        <article class="feature-card">
+            <h2 class="feature-card__title">
+                <a href="{{ .url }}">{{ .title }}</a>
+            </h2>
+            <p class="feature-card__meta">{{ .authors | safeHTML }}</p>
+            <p class="feature-card__venue">{{ .venue | safeHTML }}</p>
+        </article>
+        {{ end }}
+    </section>
+</div>
+{{ else }}
+<div class="page-shell page-shell--post">
+    <article class="post-article">
+        <div class="post-kicker">{{ partial "display_type.html" . }}</div>
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ site.Params.author }}</div>
+        {{ with .Params.summary }}
+        <p class="post-dek">{{ . }}</p>
+        {{ end }}
+        <div class="editorial-prose">
+            {{ .Content }}
+        </div>
+    </article>
+</div>
+{{ end }}
+{{ end }}

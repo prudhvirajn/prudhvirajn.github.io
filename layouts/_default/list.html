@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $label := "Archive" }}
+{{ $heading := .Title }}
+{{ $copy := "" }}
+
+{{ if eq .Section "posts" }}
+    {{ $label = "Writing" }}
+    {{ $heading = "Essays, notes, and reviews." }}
+    {{ $copy = site.Data.profile.writing_intro }}
+{{ else if .Data.Singular }}
+    {{ $label = printf "%s archive" (.Data.Singular | humanize) }}
+    {{ $copy = printf "Entries filed under %s." .Title }}
+{{ else if .IsSection }}
+    {{ $label = .Title }}
+{{ end }}
+
+<div class="page-shell page-shell--list">
+    <section class="page-intro">
+        <div class="section-label">{{ $label }}</div>
+        <h1 class="display-title">{{ $heading }}</h1>
+        {{ with $copy }}
+        <p class="display-copy">{{ . }}</p>
+        {{ end }}
+    </section>
+
+    <div class="editorial-rule"></div>
+
+    <section class="archive-list">
+        {{ range .Pages.ByDate.Reverse }}
+        <article class="archive-entry">
+            <div class="archive-entry__label">{{ partial "display_type.html" . }}</div>
+            <div class="archive-entry__body">
+                <h2 class="archive-entry__title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+                <p class="archive-entry__dek">{{ .Params.summary | default (.Summary | plainify) }}</p>
+                <div class="archive-entry__meta">{{ .Date.Format "January 2, 2006" }} · {{ site.Params.author }}</div>
+            </div>
+        </article>
+        {{ end }}
+    </section>
+</div>
+{{ end }}

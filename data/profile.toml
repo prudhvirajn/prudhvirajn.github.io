@@ -1,0 +1,98 @@
+intro = "I am Prudhviraj Naidu, a PhD student in Computer Science at UC San Diego. My research studies how neural networks acquire capabilities, and this site holds the more public record of that work alongside occasional essays on films, books, and whatever else stays with me long enough to deserve a page."
+current_reading = ""
+site_note = "Research papers, reading notes, film writing, and brief personal essays."
+writing_intro = "A small archive of things I wanted to think through in public."
+cv_name = "Prudhviraj Naidu"
+cv_role = "PhD student in Computer Science · University of California San Diego"
+cv_photo = "/images/profile_pic.jpeg"
+email = "prnaidu@ucsd.edu"
+github_url = "https://github.com/prudhvirajn"
+scholar_url = "https://scholar.google.com/citations?user=A5JdGFMAAAAJ&hl=en"
+linkedin_url = "https://www.linkedin.com/in/prudhvirajn/"
+cv_pdf_url = ""
+
+featured_writing = ["marty-supreme", "waiting-for-a-passport", "why-do-i-run"]
+
+[[selected_work]]
+title = "Quiet Feature Learning in Algorithmic Tasks"
+authors = "<strong>Prudhviraj Naidu</strong>, Zixian Wang, Leon Bergen, Ramamohan Paturi"
+venue = "AAAI 2026 (<strong>Oral</strong>)"
+url = "https://arxiv.org/abs/2505.03997"
+
+[[cv_education]]
+year = "2023-"
+title = "PhD in Computer Science"
+detail = "University of California San Diego"
+note = "Expected December 2027"
+
+[[cv_education]]
+year = "2024"
+title = "M.S. in Computer Science"
+detail = "University of California San Diego"
+note = ""
+
+[[cv_education]]
+year = "2021"
+title = "B.S. in Computer Science Honors"
+detail = "University of Cincinnati"
+note = ""
+
+[[cv_publications]]
+year = "2026"
+title = "Quiet Feature Learning in Algorithmic Tasks"
+detail = "<strong>Prudhviraj Naidu</strong>, Zixian Wang, Leon Bergen, Ramamohan Paturi"
+note = "AAAI 2026 Oral"
+
+[[cv_publications]]
+year = "2023"
+title = "Scientific Document Retrieval using Multi-level Aspect-based Queries"
+detail = "Jianyou Wang, Kaicheng Wang, Xiaoyue Wang, <strong>Prudhviraj Naidu</strong>, Leon Bergen, Ramamohan Paturi"
+note = "Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2023"
+
+[[cv_publications]]
+year = "2022"
+title = "Metamorphic Testing of Image Classification and Consistency Analysis Using Clustering"
+detail = "Hemanth Gudaparthi, <strong>Prudhviraj Naidu</strong>, Nan Niu"
+note = "International Journal of Multimedia Data Engineering and Management (IJMDEM), vol. 13, no. 1, 2022, pp. 1-20"
+
+[[cv_publications]]
+year = "2021"
+title = "Metamorphic Testing for Convolutional Neural Networks: Relations over Image Classification"
+detail = "<strong>Prudhviraj Naidu</strong>, Hemanth Gudaparthi, Nan Niu"
+note = "2021 IEEE 22nd International Conference on Information Reuse and Integration for Data Science (IRI), 2021, pp. 99-106"
+
+[[cv_experience]]
+year = "2024"
+title = "Lead Developer"
+detail = "Lab for Emerging Intelligence, UC San Diego"
+note = "Built and launched an AI tutor platform used by 600+ students, aligned deployments with instructors, and designed monitoring systems to identify and mitigate AI harm."
+
+[[cv_experience]]
+year = "2021-2022"
+title = "Junior Machine Learning Engineer"
+detail = "Passio Inc."
+note = "Delivered image classification, object detection, and tracking systems for major industry customers and built scalable Vertex AI training and export pipelines for mobile models."
+
+[[cv_experience]]
+year = "2019-2020"
+title = "Machine Learning Engineer"
+detail = "Omniaz"
+note = "Worked on end-to-end computer vision systems for beverage detection and recognition in retail environments."
+
+[[cv_experience]]
+year = "2019"
+title = "Artificial Intelligence Intern"
+detail = "Omniaz"
+note = "Built multilingual OCR support across Chinese, Korean, Japanese, and English as part of the broader retail computer vision pipeline."
+
+[[cv_projects]]
+year = "2024"
+title = "AI tutor systems for undergraduate courses"
+detail = "Led deployment across multiple UC San Diego courses for 600+ students"
+note = "Research and engineering leadership at the Lab for Emerging Intelligence"
+
+[[cv_projects]]
+year = "2021-2022"
+title = "Applied machine learning systems"
+detail = "Built image classification, tracking, and deployment pipelines at Passio"
+note = "Production computer vision and mobile ML infrastructure"

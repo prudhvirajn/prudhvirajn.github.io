@@ -4,41 +4,40 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal website/blog repository hosted on GitHub Pages at prudhvirajn.github.io. The site is built using Hugo static site generator and contains academic publications and blog posts.
+This is a personal website/blog repository hosted on GitHub Pages at prudhvirajn.github.io. The live site is built with Hugo and the PaperMod theme.
 
 ## Architecture
 
-- **Static Site Generator**: Hugo (version 0.110.0)
-- **Output Directory**: `docs/` - Contains all generated static files (HTML, CSS, JS)
-- **Hosting**: GitHub Pages (configured to serve from `docs/` directory)
-- **Content Structure**:
-  - Publications page with academic papers
-  - Blog posts including "The Perfect State" series
-  - Profile image and site assets
+- **Static Site Generator**: Hugo
+- **Theme**: PaperMod (git submodule in `themes/PaperMod`)
+- **Deploy Output**: `docs/`
+- **Hosting**: GitHub Pages serving from `docs/`
 
 ## Key Directories
 
-- `docs/` - Generated static site files (HTML, CSS, JS, images)
-  - `posts/` - Generated blog post pages
-  - `publications/` - Academic publications page
-  - `assets/` - CSS and JavaScript files
-  - `images/` - Site images including profile picture
+- `content/` - Hugo content for the homepage, CV, posts, and pages
+- `static/` - Static assets copied into the final site
+- `assets/` - Repo-level CSS overrides for the active Hugo site
+- `layouts/` - Hugo partial overrides
+- `docs/` - Generated output committed for GitHub Pages
+- `legacy/jekyll/` - Archived pre-Hugo site, not used by the current build
 
 ## Important Notes
 
-- This repository contains only the generated Hugo output in `docs/`
-- The Hugo source files (content, themes, config) are not present in this repository
-- Any content changes would need to be made in the Hugo source project
-- The site uses PaperMod theme (evident from CSS structure)
-- GitHub Pages serves directly from the `docs/` directory on the `master` branch
+- Make source changes in the Hugo project files, then rebuild `docs/`.
+- Keep custom CSS and layout overrides in the repo, not inside the PaperMod submodule.
+- Treat `public/` as disposable local output.
+- GitHub Pages serves directly from the committed `docs/` directory.
 
 ## Deployment
 
-The site is automatically served by GitHub Pages from the `docs/` directory. Any changes to files in `docs/` will be reflected on the live site at prudhvirajn.github.io.
+Rebuild the site with:
 
-## Content Management
+```bash
+hugo --cleanDestinationDir
+```
 
-Since this repository only contains the generated output, content updates should be made in the original Hugo source project and then the generated files should be copied to this repository's `docs/` directory.
+Any committed changes in `docs/` will be reflected on the live site at prudhvirajn.github.io.
 
 ## PaperMod Theme Tips
 

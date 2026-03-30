@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
-
+<html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +9,7 @@
 <meta name="description" content="Few more people did code review. I ended up trying to automate code review with Claude github action">
 <meta name="author" content="Prudhviraj Naidu">
 <link rel="canonical" href="https://prudhvirajn.github.io/posts/code-review-contest/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.e7df42763d8de318466c4e083e726ef1427564ee027449f8754ebebe290054cc.css" integrity="sha256-599Cdj2N4xhGbE4IPnJu8UJ1ZO4CdEn4dU6&#43;vikAVMw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e7a33bb95805a1021e377fbc1feee3f72bef6b0f5a9faac5b63fc92bfa5af030.css" integrity="sha256-56M7uVgFoQIeN3&#43;8H&#43;7j9yvvaw9an6rFtj/JK/pa8DA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://prudhvirajn.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://prudhvirajn.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://prudhvirajn.github.io/favicon-32x32.png">
@@ -27,35 +26,10 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><meta property="og:url" content="https://prudhvirajn.github.io/posts/code-review-contest/">
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap">
+<meta property="og:url" content="https://prudhvirajn.github.io/posts/code-review-contest/">
   <meta property="og:site_name" content="Prud&#39;s Log">
   <meta property="og:title" content="Code Review Contest">
   <meta property="og:description" content="Few more people did code review. I ended up trying to automate code review with Claude github action">
@@ -81,7 +55,7 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Posts",
+      "name": "Writing",
       "item": "https://prudhvirajn.github.io/posts/"
     }, 
     {
@@ -127,97 +101,46 @@
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    
-    document.body.classList.remove('dark');
-    
-    localStorage.removeItem("pref-theme");
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://prudhvirajn.github.io/" accesskey="h" title="Prud&#39;s Log (Alt + H)">Prud&#39;s Log</a>
-            <div class="logo-switches">
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://prudhvirajn.github.io/" title="Home">
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://prudhvirajn.github.io/posts/" title="Blog">
-                    <span>Blog</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://prudhvirajn.github.io/cv/" title="CV">
-                    <span>CV</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+<body id="top" class="editorial-body"><header class="site-header">
+    <div class="site-frame site-header__inner">
+        <a href="/" class="site-brand">Prud's Log</a>
+        <nav class="site-nav" aria-label="Primary"><a
+                href="/"
+                class="site-nav__link"
+            >
+                Home
+            </a><a
+                href="/posts/"
+                class="site-nav__link is-active"
+            >
+                Writing
+            </a><a
+                href="/cv/"
+                class="site-nav__link"
+            >
+                CV
+            </a>
+        </nav>
+    </div>
 </header>
-<main class="main">
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Code Review Contest
-    </h1>
-    <div class="post-meta"><span title='2024-07-07 13:54:08 -0700 PDT'>July 7, 2024</span>&nbsp;·&nbsp;Prudhviraj Naidu
+    <main class="editorial-main">
 
-</div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#background" aria-label="Background">Background</a></li>
-                <li>
-                    <a href="#rules" aria-label="Rules">Rules</a></li>
-                <li>
-                    <a href="#weekly-leaderboard" aria-label="Weekly Leaderboard">Weekly Leaderboard</a><ul>
-                        
-                <li>
-                    <a href="#week-1-june-24th-to-june-27th" aria-label="Week 1: June 24th to June 27th">Week 1: June 24th to June 27th</a></li>
-                <li>
-                    <a href="#week-2-july-1st-to-july-7th" aria-label="Week 2: July 1st to July 7th">Week 2: July 1st to July 7th</a></li>
-                <li>
-                    <a href="#week-3-july-8th-to-july-15th" aria-label="Week 3: July 8th to July 15th">Week 3: July 8th to July 15th</a></li>
-                <li>
-                    <a href="#week-4-july-15th-to-july-22nd" aria-label="Week 4: July 15th to July 22nd">Week 4: July 15th to July 22nd</a></li>
-                <li>
-                    <a href="#week-5-july-22nd-to-july-29th" aria-label="Week 5: July 22nd to July 29th">Week 5: July 22nd to July 29th</a></li>
-                <li>
-                    <a href="#week-6-july-29th-to-august-5th" aria-label="Week 6: July 29th to August 5th">Week 6: July 29th to August 5th</a></li></ul>
-                </li>
-                <li>
-                    <a href="#monthly-leaderboard" aria-label="Monthly Leaderboard">Monthly Leaderboard</a><ul>
-                        
-                <li>
-                    <a href="#june--july" aria-label="June / July">June / July</a></li></ul>
-                </li>
-                <li>
-                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
 
-  <div class="post-content"><h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<div class="page-shell page-shell--post">
+    <article class="post-article">
+        <div class="post-kicker">Software Engineering</div>
+        <h1 class="post-title">Code Review Contest</h1>
+        <div class="post-meta">July 7, 2024 · Prudhviraj Naidu</div>
+        
+        <p class="post-dek">Few more people did code review. I ended up trying to automate code review with Claude github action</p>
+        
+        <div class="editorial-prose">
+            <h2 id="background">Background</h2>
 <p>At LEI (Lab for Emerging Intelligence) UC San Diego, we are developing GenAI powered applications at the university. As such, we primarily hire undergraduates to take on such projects. However, the projects involve writing and deploying applications for thousands of users. This requires us to write high quality code that is easy to maintain.</p>
 <p>As part of these efforts, we are internally running a Code Review Contest to help people read code and understand what is required from them in terms of code style, documentation and quality. Furthermore, the contest helps get reviews out faster so that PRs are not bottlenecked by few.</p>
-<h2 id="rules">Rules<a hidden class="anchor" aria-hidden="true" href="#rules">#</a></h2>
+<h2 id="rules">Rules</h2>
 <ul>
 <li>Every week, everybody must review one PR per week</li>
 <li>The winner must review at least 2 PR</li>
@@ -228,8 +151,8 @@
 </ul>
 <p>If nobody wins, then the money goes into the monthly pot which goes to the person with highest reviews.</p>
 <p>Contest runs till end of August.</p>
-<h2 id="weekly-leaderboard">Weekly Leaderboard<a hidden class="anchor" aria-hidden="true" href="#weekly-leaderboard">#</a></h2>
-<h3 id="week-1-june-24th-to-june-27th">Week 1: June 24th to June 27th<a hidden class="anchor" aria-hidden="true" href="#week-1-june-24th-to-june-27th">#</a></h3>
+<h2 id="weekly-leaderboard">Weekly Leaderboard</h2>
+<h3 id="week-1-june-24th-to-june-27th">Week 1: June 24th to June 27th</h3>
 <table>
   <thead>
       <tr>
@@ -261,7 +184,7 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs and nobody did 2 PRs</p>
-<h3 id="week-2-july-1st-to-july-7th">Week 2: July 1st to July 7th<a hidden class="anchor" aria-hidden="true" href="#week-2-july-1st-to-july-7th">#</a></h3>
+<h3 id="week-2-july-1st-to-july-7th">Week 2: July 1st to July 7th</h3>
 <table>
   <thead>
       <tr>
@@ -293,7 +216,7 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
-<h3 id="week-3-july-8th-to-july-15th">Week 3: July 8th to July 15th<a hidden class="anchor" aria-hidden="true" href="#week-3-july-8th-to-july-15th">#</a></h3>
+<h3 id="week-3-july-8th-to-july-15th">Week 3: July 8th to July 15th</h3>
 <table>
   <thead>
       <tr>
@@ -329,7 +252,7 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
-<h3 id="week-4-july-15th-to-july-22nd">Week 4: July 15th to July 22nd<a hidden class="anchor" aria-hidden="true" href="#week-4-july-15th-to-july-22nd">#</a></h3>
+<h3 id="week-4-july-15th-to-july-22nd">Week 4: July 15th to July 22nd</h3>
 <table>
   <thead>
       <tr>
@@ -365,7 +288,7 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
-<h3 id="week-5-july-22nd-to-july-29th">Week 5: July 22nd to July 29th<a hidden class="anchor" aria-hidden="true" href="#week-5-july-22nd-to-july-29th">#</a></h3>
+<h3 id="week-5-july-22nd-to-july-29th">Week 5: July 22nd to July 29th</h3>
 <table>
   <thead>
       <tr>
@@ -401,7 +324,7 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
-<h3 id="week-6-july-29th-to-august-5th">Week 6: July 29th to August 5th<a hidden class="anchor" aria-hidden="true" href="#week-6-july-29th-to-august-5th">#</a></h3>
+<h3 id="week-6-july-29th-to-august-5th">Week 6: July 29th to August 5th</h3>
 <table>
   <thead>
       <tr>
@@ -437,8 +360,8 @@
   </tbody>
 </table>
 <p><strong>Weekly Winner:</strong> Nobody since not everyone completed their PRs</p>
-<h2 id="monthly-leaderboard">Monthly Leaderboard<a hidden class="anchor" aria-hidden="true" href="#monthly-leaderboard">#</a></h2>
-<h3 id="june--july">June / July<a hidden class="anchor" aria-hidden="true" href="#june--july">#</a></h3>
+<h2 id="monthly-leaderboard">Monthly Leaderboard</h2>
+<h3 id="june--july">June / July</h3>
 <table>
   <thead>
       <tr>
@@ -467,33 +390,23 @@
 </table>
 <p><strong>Winner:</strong> Laura Fleig (<a href="https://github.com/Greencouch82">GitHub Profile</a>)</p>
 <p><strong>Current Value:</strong> $50</p>
-<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>The contest ended.</p>
 <p>I am not sure code reviews improved much since I was busy with other matters than running the contest. It did increase communication in the team as people tried others pull request. I do believe it was a net positive and certainly worth more than money I paid out for it.</p>
 <p><strong>My hypothesis:</strong> It might be useful to teach people to write issues and review pull requests is better than teaching them how to code. In fact to any non-CS fresh graduates people out there, I hope I never have to see your code. It infuriates me to no extent.</p>
 
+        </div>
+    </article>
+</div>
 
-  </div>
 
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://prudhvirajn.github.io/tags/code-review/">Code Review</a></li>
-      <li><a href="https://prudhvirajn.github.io/tags/project/">Project</a></li>
-      <li><a href="https://prudhvirajn.github.io/tags/start-up/">Start Up</a></li>
-      <li><a href="https://prudhvirajn.github.io/tags/project-lead/">Project Lead</a></li>
-    </ul>
-  </footer>
-</article>
     </main>
-    
-<footer class="footer">
-    <span>&copy; 2026 <a href="https://prudhvirajn.github.io/">Prud&#39;s Log</a></span>
-    <span> · Inspired by <a href="https://lilianweng.github.io/" rel="noopener noreferrer" target="_blank">Lil'Log</a></span>
-    <span> · 
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer></body>
+<footer class="site-footer">
+    <div class="site-frame site-footer__inner">
+        <span>&copy; 2026 Prud&#39;s Log</span>
+        <span>Research, writing, and notes.</span>
+    </div>
+</footer>
 
+</body>
 </html>

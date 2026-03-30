@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+<div class="page-shell page-shell--home">
+    <section class="hero-block hero-block--home">
+        <div class="hero-block__copy">
+            <div class="section-label">Research, writing, and notes</div>
+            <p class="hero-copy">{{ $profile.intro }}</p>
+        </div>
+        {{ with $profile.cv_photo }}
+        <div class="hero-block__photo-wrap">
+            <img class="hero-block__photo" src="{{ . }}" alt="{{ $profile.cv_name }}">
+        </div>
+        {{ end }}
+    </section>
+
+    <div class="editorial-rule"></div>
+
+    <section class="home-grid">
+        <div class="home-grid__main">
+            <div class="section-label">Selected Work</div>
+            <div class="feature-list">
+                {{ range $profile.selected_work }}
+                <article class="feature-card">
+                    <h2 class="feature-card__title">
+                        <a href="{{ .url }}">{{ .title }}</a>
+                    </h2>
+                    <p class="feature-card__meta">{{ .authors | safeHTML }}</p>
+                    <p class="feature-card__venue">{{ .venue | safeHTML }}</p>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+
+        <aside class="home-grid__rail">
+            <div class="section-label">Elsewhere</div>
+            <div class="rail-stack">
+                {{ with $profile.current_reading }}
+                <section class="rail-block">
+                    <h3>Currently reading</h3>
+                    <p>{{ . }}</p>
+                </section>
+                {{ end }}
+                <section class="rail-block">
+                    <h3>On this site</h3>
+                    <p>{{ $profile.site_note }}</p>
+                </section>
+                <section class="rail-block">
+                    <h3>Links</h3>
+                    <div class="inline-links">
+                        <a href="{{ $profile.scholar_url }}">Google Scholar</a>
+                        <a href="{{ $profile.github_url }}">GitHub</a>
+                        <a href="mailto:{{ $profile.email }}">Email</a>
+                        <a href="/cv/">Curriculum Vitae</a>
+                    </div>
+                </section>
+            </div>
+        </aside>
+    </section>
+
+    <div class="editorial-rule"></div>
+
+    <section class="recent-grid">
+        <div>
+            <div class="section-label">Recent Writing</div>
+        </div>
+        <div class="recent-list">
+            {{ range $slug := $profile.featured_writing }}
+                {{ with site.GetPage (printf "/posts/%s" $slug) }}
+                <article class="recent-entry">
+                    <div>
+                        <h3 class="recent-entry__title">
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </h3>
+                        <p class="recent-entry__dek">{{ .Params.summary | default (.Summary | plainify) }}</p>
+                    </div>
+                    <div class="recent-entry__date">{{ .Date.Format "January 2, 2006" }}</div>
+                </article>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}
